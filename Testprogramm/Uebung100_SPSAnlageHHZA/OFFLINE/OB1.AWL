@@ -24,10 +24,18 @@ END_VAR
 BEGIN
 
 NETWORK
-TITLE= 
+TITLE=
 //{{a}}
 
+       U    E2.2
+       =    A12.1
 
+       U    E2.3
+       =    A12.3
 
+       U    E2.4
+       =    A12.0
 
+       U    A10.4
+       =    A12.2
 END_ORGANIZATION_BLOCK

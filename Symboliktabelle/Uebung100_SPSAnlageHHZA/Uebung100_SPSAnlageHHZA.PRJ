@@ -4,9 +4,9 @@ KonsistenzGeprueft=1
 ErstelltAm=132514826
 GeaendertAm=0
 tcPrjFarbe=16711680
-LetzteAenderungTicks=1427543742
-LetzteAenderungDatum=12.04.2022
-LetzteAenderungUhrzeit=08:09:12
+LetzteAenderungTicks=60702
+LetzteAenderungDatum=11.04.2022
+LetzteAenderungUhrzeit=15:10:30
 WinPLC7-Version=V5.036
 PaeLeiste2Aktiv=0
 PaeLeiste3Aktiv=0
@@ -54,7 +54,7 @@ NetLinkPro_RetryLimit=2
 NetLinkPro_Ttr=18176
 NetLinkPro_Busprofil=0
 NetLinkPro_Baudrate=2
-ProjektZeitMS=4876667
+ProjektZeitMS=4558664
 [INIT]
 PrgName=WinSPS-S7
 Version=V5.036
@@ -94,5 +94,3 @@ MPI_Routing_ZielNetzSubnetzIDHigh=0
 MPI_Routing_ZielNetzSubnetzIDLow=0
 MPI_Routing_ZielNetzIstMPI_DP=1
 MPI_Routing_RoutingVerwenden=0
-[OpenBlock]
-Block0=OB1
