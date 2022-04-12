@@ -24,7 +24,7 @@ END_VAR
 BEGIN
 
 NETWORK
-TITLE= 
+TITLE=
 //{{a}}
 
        U    E124.6
@@ -41,4 +41,20 @@ TITLE=
 
        U    A10.4
        =    A12.2
+
+// Testprogramm 
+       U    E4.3
+       =    A10.2
+ 
+       U    E4.4
+       =    A10.3
+ 
+       U    E4.5
+       =    A10.4
+ 
+       U    E4.6
+       =    A10.5
+ 
+       U    E4.2
+       =    A10.6
 END_ORGANIZATION_BLOCK
