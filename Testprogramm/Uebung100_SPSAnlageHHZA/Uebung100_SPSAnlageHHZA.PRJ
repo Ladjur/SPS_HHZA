@@ -5,14 +5,14 @@ ErstelltAm=132514826
 GeaendertAm=0
 tcPrjFarbe=16711680
 <<<<<<< HEAD
-LetzteAenderungTicks=1429581065
-LetzteAenderungDatum=12.04.2022
-LetzteAenderungUhrzeit=08:43:09
-=======
 LetzteAenderungTicks=7386779
 LetzteAenderungDatum=12.04.2022
 LetzteAenderungUhrzeit=08:43:12
->>>>>>> 5ce64e6e1a8edcab64407ed4cb7dc88b015764df
+=======
+LetzteAenderungTicks=1429434934
+LetzteAenderungDatum=12.04.2022
+LetzteAenderungUhrzeit=08:40:43
+>>>>>>> parent of 1e6e358... Test
 WinPLC7-Version=V5.036
 PaeLeiste2Aktiv=1
 PaeLeiste3Aktiv=0
@@ -61,10 +61,10 @@ NetLinkPro_Ttr=18176
 NetLinkPro_Busprofil=0
 NetLinkPro_Baudrate=2
 <<<<<<< HEAD
-ProjektZeitMS=6296951
-=======
 ProjektZeitMS=6250072
->>>>>>> 5ce64e6e1a8edcab64407ed4cb7dc88b015764df
+=======
+ProjektZeitMS=6219550
+>>>>>>> parent of 1e6e358... Test
 [INIT]
 PrgName=WinSPS-S7
 Version=V5.036
