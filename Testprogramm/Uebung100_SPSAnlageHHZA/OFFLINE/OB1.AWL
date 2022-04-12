@@ -24,8 +24,11 @@ END_VAR
 BEGIN
 
 NETWORK
-TITLE=
+TITLE= 
 //{{a}}
+
+       U    E124.6
+       =    A         9.4
 
        U    E2.2
        =    A12.1
