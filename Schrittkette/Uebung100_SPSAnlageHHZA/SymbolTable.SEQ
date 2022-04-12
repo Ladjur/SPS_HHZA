@@ -1,0 +1,33 @@
+// Ausgänge
+Vertikalzylinder hoch	A   10.2	BOOL	
+Saugen ein	A   10.3	BOOL	
+Z-Achse ausfahren	A   10.4	BOOL	
+Arm Links	A   10.5	BOOL	
+Arm Rechts	A   10.6	BOOL	
+// Eingänge
+Wandlereinheit CH A	E  124.0	BOOL	
+Wandlereinheit CH B	E  124.1	BOOL	
+Home Position	E  124.6	BOOL	
+Vertikalzylinder unten	E    2.2	BOOL	
+Vertikalzylinder oben	E    2.3	BOOL	
+Z-Achse eingefahren	E    2.4	BOOL	
+Z-Achse ausgefahren	E    2.5	BOOL	
+// Bedienpult -> A
+Bereit grün	A   12.0	BOOL	
+Störung rot	A   12.1	BOOL	
+Fehler blau	A   12.2	BOOL	
+Frei definierbar weiss	A   12.3	BOOL	
+// Bedienpult -> E
+Kein Not-Aus	E    4.0	BOOL	
+Hand	E    4.1	BOOL	
+Auto	E    4.2	BOOL	
+Start	E    4.3	BOOL	
+Stop	E    4.4	BOOL	
+Quittieren	E    4.5	BOOL	
+Frei definierbar	E    4.6	BOOL	
+Not-Aus	E    4.7	BOOL	
+Frei definierbar S1	E    5.0	BOOL	
+Frei definierbar S2	E    5.1	BOOL	
+Frei definierbar S3	E    5.2	BOOL	
+Frei definierbar S4	E    5.3	BOOL	
+Frei definierbar S5	E    5.4	BOOL	
