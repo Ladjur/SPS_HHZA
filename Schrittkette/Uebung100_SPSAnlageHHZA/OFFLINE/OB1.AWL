@@ -24,37 +24,14 @@ END_VAR
 BEGIN
 
 NETWORK
-TITLE= 
+TITLE=
 //{{a}}
 
-       U    E124.6
-       =    A         9.4
-
-       U    E2.2
-       =    A12.1
-
+//Anlauf 
+       S    A10.2
        U    E2.3
-       =    A12.3
-
-       U    E2.4
-       =    A12.0
-
-       U    A10.4
-       =    A12.2
-
-// Testprogramm 
-       U    E4.3
-       =    A10.2
- 
-       U    E4.4
-       =    A10.3
- 
-       U    E4.5
-       =    A10.4
- 
-       U    E4.6
-       =    A10.5
- 
-       U    E4.2
-       =    A10.6
+       S    A10.5
+       U    E124.6
+       R    A10.5
+       R    A10.2
 END_ORGANIZATION_BLOCK

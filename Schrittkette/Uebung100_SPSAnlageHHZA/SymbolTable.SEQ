@@ -1,9 +1,9 @@
 // Ausgänge
-Vertikalzylinder hoch	A   10.2	BOOL	
+Vertikalzylinder hoch	A   10.2	BOOL	Z ausfahren=1(einfahren=0)
 Saugen ein	A   10.3	BOOL	
-Z-Achse ausfahren	A   10.4	BOOL	
-Arm Links	A   10.5	BOOL	
-Arm Rechts	A   10.6	BOOL	
+Z-Achse ausfahren	A   10.4	BOOL	Y ausfahren=1(einfahren=0)
+Arm Links	A   10.5	BOOL	X gegen Uhrzeigersinn
+Arm Rechts	A   10.6	BOOL	Hom
 // Eingänge
 Wandlereinheit CH A	E  124.0	BOOL	
 Wandlereinheit CH B	E  124.1	BOOL	
@@ -31,3 +31,4 @@ Frei definierbar S2	E    5.1	BOOL
 Frei definierbar S3	E    5.2	BOOL	
 Frei definierbar S4	E    5.3	BOOL	
 Frei definierbar S5	E    5.4	BOOL	
+//Zustände
