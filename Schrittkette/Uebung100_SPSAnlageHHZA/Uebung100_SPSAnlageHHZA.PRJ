@@ -5,9 +5,9 @@ ErstelltAm=132514826
 GeaendertAm=0
 tcPrjFarbe=16711680
 <<<<<<< HEAD
-LetzteAenderungTicks=318214113
+LetzteAenderungTicks=331492003
 LetzteAenderungDatum=29.04.2022
-LetzteAenderungUhrzeit=08:40:11
+LetzteAenderungUhrzeit=12:21:28
 =======
 LetzteAenderungTicks=1429434934
 LetzteAenderungDatum=12.04.2022
@@ -61,7 +61,7 @@ NetLinkPro_Ttr=18176
 NetLinkPro_Busprofil=0
 NetLinkPro_Baudrate=2
 <<<<<<< HEAD
-ProjektZeitMS=9015970
+ProjektZeitMS=9052508
 =======
 ProjektZeitMS=6219550
 >>>>>>> parent of 1e6e358... Test
@@ -115,5 +115,5 @@ Adresse=2
 Baugruppenart=4
 Adresse=12
 [OpenBlock]
-Block0=OB1
-Block1=OB100
+Block0=OB100
+Block1=OB1

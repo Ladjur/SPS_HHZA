@@ -24,7 +24,7 @@ END_VAR
 BEGIN
 
 NETWORK
-TITLE=
+TITLE= 
 //{{a}}
 
 //Anlauf 
@@ -34,4 +34,11 @@ TITLE=
        U    E124.6
        R    A10.5
        R    A10.2
+NETWORK
+TITLE= 
+//{{a}}
+
+//Zustände 
+
+
 END_ORGANIZATION_BLOCK
