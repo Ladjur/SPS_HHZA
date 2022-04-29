@@ -27,18 +27,22 @@ NETWORK
 TITLE= 
 //{{a}}
 
-//Anlauf 
-       S    A10.2
-       U    E2.3
-       S    A10.5
-       U    E124.6
-       R    A10.5
-       R    A10.2
+
+
+
 NETWORK
-TITLE= 
+TITLE=Zustände
+//{{a}}
+
+//Zustände Boden 
+ 
+NETWORK
+TITLE=
 //{{a}}
 
 //Zustände 
-
-
+//Referenzfahrt 
+//Hauptfahrt 
+//Bden 
+//Decke´l 
 END_ORGANIZATION_BLOCK

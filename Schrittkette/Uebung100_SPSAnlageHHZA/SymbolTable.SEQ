@@ -31,5 +31,30 @@ Frei definierbar S2	E    5.1	BOOL
 Frei definierbar S3	E    5.2	BOOL	
 Frei definierbar S4	E    5.3	BOOL	
 Frei definierbar S5	E    5.4	BOOL	
-//Zustände
-1B	M 10000.0	BOOL	
+//Zustände  MB5,MB20,MB21,MB25
+1B	M    5.0	BOOL	Boden X Uhrzeigersinn (HAND/AUTO) Saugen 
+2B	M    5.1	BOOL	Boden Z-Achse einfahren Saugen 
+3B	M    5.2	BOOL	Boden Saugen aus 
+4B	M    5.3	BOOL	Boden Z-Achse ausfahren 
+5B	M    5.4	BOOL	Boden Z-Achse einfahren 
+6B	M    5.5	BOOL	Boden Saugen 
+7B	M    5.6	BOOL	Boden Z-Achse ausfahren Saugen 
+8B	M    5.7	BOOL	Boden Y-Achse ausfahren Saugen Z-Achse
+9B	M   20.0	BOOL	Boden Z-Achse einfahren Saugen Y-Achse
+10B	M   20.1	BOOL	Boden Saugen aus Y-Achse
+11B	M   20.2	BOOL	Boden Z-Achse ausfahren Y-Achse
+12B	M   20.3	BOOL	Boden Z-Achse einfahren Y-Achse 
+13B	M   20.4	BOOL	Boden Z-Achse einfahren Saugen ein Y-Achse 
+14B	M   20.5	BOOL	Boden Y-Achse ausfahren Saugen Z-Achse 
+15B	M   20.6	BOOL	Boden Saugen Z-Achse 
+16B	M   20.7	BOOL	Boden Saugen 
+17B	M   21.0	BOOL	Boden Saugen aus 
+18B	M   21.1	BOOL	Boden Z-Achse ausfahren
+1H	M   21.2	BOOL	Z-Achse ausfahren 
+2H	M   21.3	BOOL	X Uhrzeigersinn (HAND/AUTO)
+3H	M   21.4	BOOL	Z-Achse einfahren 
+4H	M   21.5	BOOL	Saugen
+5H	M   21.6	BOOL	
+1R	M   21.7	BOOL	
+2R	M   25.0	BOOL	
+3R	M   25.1	BOOL	
