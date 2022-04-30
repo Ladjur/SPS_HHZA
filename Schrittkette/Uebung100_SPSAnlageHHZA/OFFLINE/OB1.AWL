@@ -24,25 +24,58 @@ END_VAR
 BEGIN
 
 NETWORK
-TITLE= 
-//{{a}}
-
-
-
-
-NETWORK
-TITLE=Zustände
-//{{a}}
-
-//Zustände Boden 
- 
-NETWORK
 TITLE=
+//{{a}}
+
+// Referenzfahrt 
+       U    A12.3                        //Simulation vom start 
+       S    M21.7
+
+       U    M21.7
+       U    E2.3
+       S    M25.0
+
+       U    M25.0
+       U    E124.6
+       S    M25.1
+NETWORK
+TITLE= Zustände
 //{{a}}
 
 //Zustände 
 //Referenzfahrt 
-//Hauptfahrt 
-//Bden 
+////1R 
+       U    M21.7
+       S    A10.2
+       R    A10.3
+       R    A10.4
+       R    A10.5
+       R    A10.6
+////2R 
+       U    M25.0
+       S    A10.2
+       R    A10.3
+       R    A10.4
+       S    A10.5
+       R    A10.6
+       R    M21.7
+////3R 
+       U    M25.1
+       R    A10.2
+       R    A10.3
+       R    A10.4
+       R    A10.5
+       R    A10.6
+       R    M25.0
+               
+//Hauptfahrt  
+////H1 
+
+////H2 
+////h3 
+////H4 
+////H5
+
+//Bden
 //Decke´l 
 END_ORGANIZATION_BLOCK

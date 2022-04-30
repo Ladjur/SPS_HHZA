@@ -50,11 +50,11 @@ Frei definierbar S5	E    5.4	BOOL
 16B	M   20.7	BOOL	Boden Saugen 
 17B	M   21.0	BOOL	Boden Saugen aus 
 18B	M   21.1	BOOL	Boden Z-Achse ausfahren
-1H	M   21.2	BOOL	Z-Achse ausfahren 
-2H	M   21.3	BOOL	X Uhrzeigersinn (HAND/AUTO)
-3H	M   21.4	BOOL	Z-Achse einfahren 
-4H	M   21.5	BOOL	Saugen
-5H	M   21.6	BOOL	
-1R	M   21.7	BOOL	
-2R	M   25.0	BOOL	
-3R	M   25.1	BOOL	
+H1	M   21.2	BOOL	Z-Achse ausfahren 
+H2	M   21.3	BOOL	X Uhrzeigersinn (HAND/AUTO)
+H3	M   21.4	BOOL	Z-Achse einfahren 
+H4	M   21.5	BOOL	Saugen
+H5	M   21.6	BOOL	Z-Achse ausfahren Saugen
+R1	M   21.7	BOOL	Z-Achse ausfahren
+R2	M   25.0	BOOL	X gegen Uhrzeigersinn
+R3	M   25.1	BOOL	Z-Achse einfahren
