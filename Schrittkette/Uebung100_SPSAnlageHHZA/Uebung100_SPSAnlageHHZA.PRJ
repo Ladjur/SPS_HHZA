@@ -5,9 +5,9 @@ ErstelltAm=132514826
 GeaendertAm=0
 tcPrjFarbe=16711680
 <<<<<<< HEAD
-LetzteAenderungTicks=5337200
+LetzteAenderungTicks=19403516
 LetzteAenderungDatum=30.04.2022
-LetzteAenderungUhrzeit=09:28:06
+LetzteAenderungUhrzeit=13:22:32
 =======
 LetzteAenderungTicks=1429434934
 LetzteAenderungDatum=12.04.2022
@@ -45,7 +45,7 @@ TD200DB=
 MHJ_RFC1006_IPAdresse=192.168.2.111
 MHJ_RFC1006_SlotNr=2
 MHJ_RFC1006_RackNummer=0
-Komunikation_Ziel=1
+Komunikation_Ziel=0
 MHJ_RFC1006_PortNummer=102
 IPAdresseNetLinkProStr=192.168.2.130
 NetLinkProAutomatischeBaudratenErkennungAus=0
@@ -61,7 +61,7 @@ NetLinkPro_Ttr=18176
 NetLinkPro_Busprofil=0
 NetLinkPro_Baudrate=2
 <<<<<<< HEAD
-ProjektZeitMS=11323481
+ProjektZeitMS=14198591
 =======
 ProjektZeitMS=6219550
 >>>>>>> parent of 1e6e358... Test

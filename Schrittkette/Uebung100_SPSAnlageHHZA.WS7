@@ -1,12 +1,12 @@
 [PrjV2]
 Kennung=WS7V2
 iAktivesUnterprojekt=0
-bSimulatorAktiv=0
-ExternWeg=1
+bSimulatorAktiv=1
+ExternWeg=0
 <<<<<<< HEAD
-LetzteAenderungTicks=5337187
+LetzteAenderungTicks=19403505
 LetzteAenderungDatum=30.04.2022
-LetzteAenderungUhrzeit=09:28:06
+LetzteAenderungUhrzeit=13:22:32
 =======
 LetzteAenderungTicks=1429434787
 LetzteAenderungDatum=12.04.2022

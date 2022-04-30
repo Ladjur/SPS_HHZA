@@ -24,10 +24,28 @@ END_VAR
 BEGIN
 
 NETWORK
-TITLE=
+TITLE= 
 //{{a}}
 
-// Referenzfahrt 
+////////NotAus 
+       U    E4.7
+       R    A10.5
+       R    A10.6
+       R    A10.2
+       R    A10.3
+       R    A10.4
+         
+/////Hand/Auto
+       U    E4.1
+       S    A10.5
+       U    E4.2
+       S    A10.6
+
+       UN   E4.1
+       R    A10.5
+       UN   E4.2
+       R    A10.6
+////// Referenzfahrt 
        U    A12.3                        //Simulation vom start 
        S    M21.7
 
@@ -38,44 +56,266 @@ TITLE=
        U    M25.0
        U    E124.6
        S    M25.1
+//////Hauptfahrt 
+       U    M25.1
+       U    E4.3                         //ToDO: Info von HannesGruppe
+       S    M21.2
+
+       U    M21.2
+       U    E2.3
+       S    M21.3
+
+       U    M21.3
+       U    E4.3
+       S    M21.4
+
+       U    M21.4
+       U    E2.2
+       S    M21.5
+
+       U    M21.5
+       U    E4.3                         //ToDO 1sec Timer 
+       S    M21.6
+//////Boden 
+       U    M21.6
+       U    E4.3
+       S    M5.0
+
+       U    M5.0
+       U    E4.3
+       S    M5.1
+
+       U    M5.1
+       U    E2.2
+       S    M5.2
+
+       U    M5.2
+       U    A12.3                        //ToDO: SAUGEN 1sec 
+       S    M5.3
+
+       U    M5.3
+       U    E4.3
+       S    M5.4
+
+       U    M5.4
+       U    E2.2
+       S    M5.5
+
+       U    M5.5
+       U    A12.3                        //ToDO: SAUGEN 1sec 
+       S    M5.6
+
+       U    M5.6
+       U    E2.3
+       S    M5.7
+
+       U    M5.7
+       U    E2.5
+       S    M20.0
+
+       U    M20.0
+       U    E2.2
+       S    M20.1
+
+       U    M20.1
+       U    A12.3                        //ToDO: SAUGEN 1sec 
+       S    M20.2
+
+       U    M20.2
+       U    E4.3
+       S    M20.3
+
+       U    M20.3
+       U    E2.2
+       S    M20.4
+
+       U    M20.4
+       U    A12.3                        //ToDO: SAUGEN 1sec  
+       S    M20.5
+
+       U    M20.5
+       U    E2.3
+       S    M20.6
+
+       U    M20.6
+       U    E2.4
+       S    M20.7
+
+       U    M20.7
+       U    E2.2
+       S    M21.0
+
+       U    M21.0
+       U    A12.3                        //ToDO: SAUGEN 1sec  
+       S    M21.1
 NETWORK
 TITLE= Zustände
 //{{a}}
 
-//Zustände 
-//Referenzfahrt 
+/////////////////////Zustände 
+//////////Referenzfahrt 
 ////1R 
        U    M21.7
        S    A10.2
        R    A10.3
        R    A10.4
-       R    A10.5
-       R    A10.6
 ////2R 
        U    M25.0
        S    A10.2
        R    A10.3
        R    A10.4
-       S    A10.5
-       R    A10.6
        R    M21.7
 ////3R 
        U    M25.1
        R    A10.2
        R    A10.3
        R    A10.4
-       R    A10.5
-       R    A10.6
        R    M25.0
                
-//Hauptfahrt  
+//////////Hauptfahrt  
 ////H1 
-
+       U    M21.2
+       S    A10.2
+       R    A10.3
+       R    A10.4
+       R    M25.1
 ////H2 
-////h3 
+       U    M21.3
+       S    A10.2
+       R    A10.3
+       R    A10.4
+       R    M21.2
+////H3 
+       U    M21.4
+       R    A10.2
+       R    A10.3
+       R    A10.4
+       R    M21.3
 ////H4 
+       U    M21.5
+       R    A10.2
+       S    A10.3
+       R    A10.4
+//ToDo StartTimer SAugen 
+       R    M21.4
 ////H5
-
-//Bden
-//Decke´l 
+       U    M21.6
+       S    A10.2
+       S    A10.3
+       R    A10.4
+       R    M21.5
+//////////Boden
+////B1 
+       U    M5.0
+       S    A10.2
+       S    A10.3
+       R    A10.4
+       R    M21.6
+////B2  
+       U    M5.1
+       R    A10.2
+       S    A10.3
+       R    A10.4
+       R    M5.0
+////B3  
+       U    M5.2
+       R    A10.2
+       R    A10.3
+//TooDO: Timer 
+       R    A10.4
+       R    M5.1
+////B4  
+       U    M5.3
+       S    A10.2
+       R    A10.3
+       R    A10.4
+       R    M5.2
+////B5  
+       U    M5.4
+       R    A10.2
+       R    A10.3
+       R    A10.4
+       R    M5.3
+////B6  
+       U    M5.5
+       R    A10.2
+       S    A10.3
+//ToDO: Timer Saugen 
+       R    A10.4
+       R    M5.4
+////B7  
+       U    M5.6
+       S    A10.2
+       S    A10.3
+       R    A10.4
+       R    M5.5
+////B8  
+       U    M5.7
+       S    A10.2
+       S    A10.3
+       S    A10.4
+       R    M5.6
+////B9  
+       U    M20.0
+       R    A10.2
+       S    A10.3
+       S    A10.4
+       R    M5.7
+////B10  
+       U    M20.1
+       R    A10.2
+       R    A10.3
+       S    A10.4
+       R    M20.0
+////B11 
+       U    M20.2
+       S    A10.2
+       R    A10.3
+       S    A10.4
+       R    M20.1
+////B12 
+       U    M20.3
+       R    A10.2
+       R    A10.3
+       S    A10.4
+       R    M20.2
+////B13 
+       U    M20.4
+       R    A10.2
+       S    A10.3
+       S    A10.4
+       R    M20.3
+////B14 
+       U    M20.5
+       S    A10.2
+       S    A10.3
+       S    A10.4
+       R    M20.4
+////B15 
+       U    M20.6
+       S    A10.2
+       S    A10.3
+       R    A10.4
+       R    M20.5
+////B16 
+       U    M20.7
+       R    A10.2
+       S    A10.3
+       R    A10.4
+       R    M20.6
+////B17 
+       U    M21.0
+       R    A10.2
+       R    A10.3
+//TODO: TIMER SAUGEN 
+       R    A10.4
+       R    M20.7
+////B18               
+       U    M21.1
+       S    A10.2
+       R    A10.3
+       R    A10.4
+       R    M21.0
+  
+//////////Deckel 
 END_ORGANIZATION_BLOCK
