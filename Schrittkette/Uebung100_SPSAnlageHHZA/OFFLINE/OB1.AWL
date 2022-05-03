@@ -24,7 +24,7 @@ END_VAR
 BEGIN
 
 NETWORK
-TITLE=
+TITLE= 
 //{{a}}
 
 ////////NotAus 
@@ -34,7 +34,7 @@ TITLE=
        R    A10.2
        R    A10.3
        R    A10.4
-         
+
 /////Hand/Auto
        U    E4.1
        S    A10.5
@@ -74,7 +74,10 @@ TITLE=
        S    M21.5
 
        U    M21.5
-       U    E4.3                         //ToDO 1sec Timer 
+       U    E4.3
+       L    S5T#1S
+       SE   T6
+       U    T6
        S    M21.6
 //////Boden 
        U    M21.6
@@ -90,7 +93,9 @@ TITLE=
        S    M5.2
 
        U    M5.2
-       U    A12.3                        //ToDO: SAUGEN 1sec 
+       L    S5T#1S
+       SE   T6
+       U    T6
        S    M5.3
 
        U    M5.3
@@ -102,7 +107,9 @@ TITLE=
        S    M5.5
 
        U    M5.5
-       U    A12.3                        //ToDO: SAUGEN 1sec 
+       L    S5T#1S
+       SE   T6
+       U    T6
        S    M5.6
 
        U    M5.6
@@ -118,7 +125,9 @@ TITLE=
        S    M20.1
 
        U    M20.1
-       U    A12.3                        //ToDO: SAUGEN 1sec 
+       L    S5T#1S
+       SE   T6
+       U    T6
        S    M20.2
 
        U    M20.2
@@ -130,7 +139,9 @@ TITLE=
        S    M20.4
 
        U    M20.4
-       U    A12.3                        //ToDO: SAUGEN 1sec  
+       L    S5T#1S
+       SE   T6
+       U    T6
        S    M20.5
 
        U    M20.5
@@ -146,7 +157,9 @@ TITLE=
        S    M21.0
 
        U    M21.0
-       U    A12.3                        //ToDO: SAUGEN 1sec  
+       L    S5T#1S
+       SE   T6
+       U    T6
        S    M21.1
 NETWORK
 TITLE= Zustände

@@ -58,3 +58,5 @@ H5	M   21.6	BOOL	Z-Achse ausfahren Saugen
 R1	M   21.7	BOOL	Z-Achse ausfahren
 R2	M   25.0	BOOL	X gegen Uhrzeigersinn
 R3	M   25.1	BOOL	Z-Achse einfahren
+//Timer 6,9-13,
+TimerSaugen	T      6	TIMER	
