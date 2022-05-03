@@ -24,7 +24,7 @@ END_VAR
 BEGIN
 
 NETWORK
-TITLE= 
+TITLE=
 //{{a}}
 
 ////////NotAus 
@@ -46,7 +46,7 @@ TITLE=
        UN   E4.2
        R    A10.6
 ////// Referenzfahrt 
-       U    A12.3                        //Simulation vom start 
+       U    E4.6                         //Simulation vom start 
        S    M21.7
 
        U    M21.7
@@ -74,9 +74,11 @@ TITLE=
        S    M21.5
 
        U    M21.5
-       U    E4.3
-       L    S5T#1S
-       SE   T6
+       UN   M25.2
+       UN   M25.3
+       S    M25.2
+
+       U    M21.5
        U    T6
        S    M21.6
 //////Boden 
@@ -93,11 +95,14 @@ TITLE=
        S    M5.2
 
        U    M5.2
-       L    S5T#1S
-       SE   T6
+       UN   M25.2
+       UN   M25.3
+       S    M25.2
+
+       U    M5.2
        U    T6
        S    M5.3
-
+          
        U    M5.3
        U    E4.3
        S    M5.4
@@ -107,11 +112,14 @@ TITLE=
        S    M5.5
 
        U    M5.5
-       L    S5T#1S
-       SE   T6
+       UN   M25.2
+       UN   M25.3
+       S    M25.2
+
+       U    M5.5
        U    T6
        S    M5.6
-
+         
        U    M5.6
        U    E2.3
        S    M5.7
@@ -124,12 +132,16 @@ TITLE=
        U    E2.2
        S    M20.1
 
+
        U    M20.1
-       L    S5T#1S
-       SE   T6
+       UN   M25.2
+       UN   M25.3
+       S    M25.2
+
+       U    M20.1
        U    T6
        S    M20.2
-
+           
        U    M20.2
        U    E4.3
        S    M20.3
@@ -139,11 +151,14 @@ TITLE=
        S    M20.4
 
        U    M20.4
-       L    S5T#1S
-       SE   T6
+       UN   M25.2
+       UN   M25.3
+       S    M25.2
+
+       U    M20.4
        U    T6
        S    M20.5
-
+             
        U    M20.5
        U    E2.3
        S    M20.6
@@ -157,8 +172,11 @@ TITLE=
        S    M21.0
 
        U    M21.0
-       L    S5T#1S
-       SE   T6
+       UN   M25.2
+       UN   M25.3
+       S    M25.2
+ 
+       U    M21.0
        U    T6
        S    M21.1
 NETWORK
@@ -166,6 +184,13 @@ TITLE= Zustände
 //{{a}}
 
 /////////////////////Zustände 
+//Saugen 
+
+       U    M25.2
+       L    S5T#1S
+       SE   T6
+       S    M25.3
+       R    M25.2
 //////////Referenzfahrt 
 ////1R 
        U    M21.7
@@ -217,6 +242,7 @@ TITLE= Zustände
        S    A10.3
        R    A10.4
        R    M21.5
+       R    M25.3
 //////////Boden
 ////B1 
        U    M5.0
