@@ -75,7 +75,6 @@ TITLE=
 
        U    M21.5
        UN   M25.2
-       UN   M25.3
        S    M25.2
 
        U    M21.5
@@ -96,7 +95,6 @@ TITLE=
 
        U    M5.2
        UN   M25.2
-       UN   M25.3
        S    M25.2
 
        U    M5.2
@@ -113,7 +111,6 @@ TITLE=
 
        U    M5.5
        UN   M25.2
-       UN   M25.3
        S    M25.2
 
        U    M5.5
@@ -135,7 +132,6 @@ TITLE=
 
        U    M20.1
        UN   M25.2
-       UN   M25.3
        S    M25.2
 
        U    M20.1
@@ -152,7 +148,6 @@ TITLE=
 
        U    M20.4
        UN   M25.2
-       UN   M25.3
        S    M25.2
 
        U    M20.4
@@ -173,7 +168,6 @@ TITLE=
 
        U    M21.0
        UN   M25.2
-       UN   M25.3
        S    M25.2
  
        U    M21.0
@@ -189,8 +183,6 @@ TITLE= Zustände
        U    M25.2
        L    S5T#1S
        SE   T6
-       S    M25.3
-       R    M25.2
 //////////Referenzfahrt 
 ////1R 
        U    M21.7
@@ -241,8 +233,9 @@ TITLE= Zustände
        S    A10.2
        S    A10.3
        R    A10.4
+       R    M25.2
        R    M21.5
-       R    M25.3
+
 //////////Boden
 ////B1 
        U    M5.0
@@ -260,7 +253,6 @@ TITLE= Zustände
        U    M5.2
        R    A10.2
        R    A10.3
-//TooDO: Timer 
        R    A10.4
        R    M5.1
 ////B4  
@@ -268,6 +260,7 @@ TITLE= Zustände
        S    A10.2
        R    A10.3
        R    A10.4
+       R    M25.2
        R    M5.2
 ////B5  
        U    M5.4
@@ -279,7 +272,6 @@ TITLE= Zustände
        U    M5.5
        R    A10.2
        S    A10.3
-//ToDO: Timer Saugen 
        R    A10.4
        R    M5.4
 ////B7  
@@ -287,6 +279,7 @@ TITLE= Zustände
        S    A10.2
        S    A10.3
        R    A10.4
+       R    M25.2
        R    M5.5
 ////B8  
        U    M5.7
@@ -311,6 +304,7 @@ TITLE= Zustände
        S    A10.2
        R    A10.3
        S    A10.4
+       R    M25.2
        R    M20.1
 ////B12 
        U    M20.3
@@ -329,6 +323,7 @@ TITLE= Zustände
        S    A10.2
        S    A10.3
        S    A10.4
+       R    M25.2
        R    M20.4
 ////B15 
        U    M20.6
@@ -346,7 +341,6 @@ TITLE= Zustände
        U    M21.0
        R    A10.2
        R    A10.3
-//TODO: TIMER SAUGEN 
        R    A10.4
        R    M20.7
 ////B18               
@@ -354,6 +348,7 @@ TITLE= Zustände
        S    A10.2
        R    A10.3
        R    A10.4
+       R    M25.2
        R    M21.0
   
 //////////Deckel 
