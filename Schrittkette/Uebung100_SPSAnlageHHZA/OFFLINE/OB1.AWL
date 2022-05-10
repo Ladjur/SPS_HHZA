@@ -24,10 +24,12 @@ END_VAR
 BEGIN
 
 NETWORK
-TITLE=
+TITLE= Referenzfahrt Hauptfahrt Boden
 //{{a}}
 
-////////NotAus 
+//Portal verschieben 
+       S    A        11.1
+////////NotAus
        U    E4.7
        R    A10.5
        R    A10.6
@@ -82,6 +84,9 @@ TITLE=
        S    M21.6
 //////Boden 
        U    M21.6
+       U    E5.0
+       UN   E5.1
+       UN   E5.2
        U    E4.3
        S    M5.0
 
