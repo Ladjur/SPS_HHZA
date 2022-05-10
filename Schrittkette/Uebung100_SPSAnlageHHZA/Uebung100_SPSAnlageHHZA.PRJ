@@ -5,9 +5,9 @@ ErstelltAm=132514826
 GeaendertAm=0
 tcPrjFarbe=16711680
 <<<<<<< HEAD
-LetzteAenderungTicks=1271014634
+LetzteAenderungTicks=1271571248
 LetzteAenderungDatum=10.05.2022
-LetzteAenderungUhrzeit=09:20:08
+LetzteAenderungUhrzeit=09:29:25
 =======
 LetzteAenderungTicks=1429434934
 LetzteAenderungDatum=12.04.2022
@@ -61,7 +61,7 @@ NetLinkPro_Ttr=18176
 NetLinkPro_Busprofil=0
 NetLinkPro_Baudrate=2
 <<<<<<< HEAD
-ProjektZeitMS=18432760
+ProjektZeitMS=18904130
 =======
 ProjektZeitMS=6219550
 >>>>>>> parent of 1e6e358... Test
