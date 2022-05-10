@@ -30,154 +30,154 @@ TITLE= Referenzfahrt Hauptfahrt Boden
 //Portal verschieben 
        S    A        11.1
 ////////NotAus
-       U    E4.7
-       R    A10.5
-       R    A10.6
-       R    A10.2
-       R    A10.3
-       R    A10.4
+       U    E         4.7
+       R    A        10.5
+       R    A        10.6
+       R    A        10.2
+       R    A        10.3
+       R    A        10.4
 
 /////Hand/Auto
-       U    E4.1
-       S    A10.5
-       U    E4.2
-       S    A10.6
+       U    E         4.1
+       S    A        10.5
+       U    E         4.2
+       S    A        10.6
 
-       UN   E4.1
-       R    A10.5
-       UN   E4.2
-       R    A10.6
+       UN   E         4.1
+       R    A        10.5
+       UN   E         4.2
+       R    A        10.6
 ////// Referenzfahrt 
-       U    E4.6                         //Simulation vom start 
-       S    M21.7
+       U    E         4.6                //Simulation vom start 
+       S    M        21.7
 
-       U    M21.7
-       U    E2.3
-       S    M25.0
+       U    M        21.7
+       U    E         2.3
+       S    M        25.0
 
-       U    M25.0
-       U    E124.6
-       S    M25.1
+       U    M        25.0
+       U    E       124.6
+       S    M        25.1
 //////Hauptfahrt 
-       U    M25.1
-       U    E4.3                         //ToDO: Info von HannesGruppe
-       S    M21.2
+       U    M        25.1
+       U    E         4.3                //ToDO: Info von HannesGruppe
+       S    M        21.2
 
-       U    M21.2
-       U    E2.3
-       S    M21.3
+       U    M        21.2
+       U    E         2.3
+       S    M        21.3
 
-       U    M21.3
-       U    E4.3
-       S    M21.4
+       U    M        21.3
+       U    E         4.3
+       S    M        21.4
 
-       U    M21.4
-       U    E2.2
-       S    M21.5
+       U    M        21.4
+       U    E         2.2
+       S    M        21.5
 
-       U    M21.5
-       UN   M25.2
-       S    M25.2
+       U    M        21.5
+       UN   M        25.2
+       S    M        25.2
 
-       U    M21.5
-       U    T6
-       S    M21.6
+       U    M        21.5
+       U    T           6
+       S    M        21.6
 //////Boden 
-       U    M21.6
-       U    E5.0
-       UN   E5.1
-       UN   E5.2
-       U    E4.3
-       S    M5.0
+       U    M        21.6
+       U    E         5.0
+       UN   E         5.1
+       UN   E         5.2
+       U    E         4.3
+       S    M         5.0
 
-       U    M5.0
-       U    E4.3
-       S    M5.1
+       U    M         5.0
+       U    E         4.3
+       S    M         5.1
 
-       U    M5.1
-       U    E2.2
-       S    M5.2
+       U    M         5.1
+       U    E         2.2
+       S    M         5.2
 
-       U    M5.2
-       UN   M25.2
-       S    M25.2
+       U    M         5.2
+       UN   M        25.2
+       S    M        25.2
 
-       U    M5.2
-       U    T6
-       S    M5.3
+       U    M         5.2
+       U    T           6
+       S    M         5.3
           
-       U    M5.3
-       U    E4.3
-       S    M5.4
+       U    M         5.3
+       U    E         4.3
+       S    M         5.4
 
-       U    M5.4
-       U    E2.2
-       S    M5.5
+       U    M         5.4
+       U    E         2.2
+       S    M         5.5
 
-       U    M5.5
-       UN   M25.2
-       S    M25.2
+       U    M         5.5
+       UN   M        25.2
+       S    M        25.2
 
-       U    M5.5
-       U    T6
-       S    M5.6
+       U    M         5.5
+       U    T           6
+       S    M         5.6
          
-       U    M5.6
-       U    E2.3
-       S    M5.7
+       U    M         5.6
+       U    E         2.3
+       S    M         5.7
 
-       U    M5.7
-       U    E2.5
+       U    M         5.7
+       U    E         2.5
        S    M20.0
 
        U    M20.0
-       U    E2.2
+       U    E         2.2
        S    M20.1
 
 
        U    M20.1
-       UN   M25.2
-       S    M25.2
+       UN   M        25.2
+       S    M        25.2
 
        U    M20.1
-       U    T6
+       U    T           6
        S    M20.2
            
        U    M20.2
-       U    E4.3
+       U    E         4.3
        S    M20.3
 
        U    M20.3
-       U    E2.2
+       U    E         2.2
        S    M20.4
 
        U    M20.4
-       UN   M25.2
-       S    M25.2
+       UN   M        25.2
+       S    M        25.2
 
        U    M20.4
-       U    T6
+       U    T           6
        S    M20.5
              
        U    M20.5
-       U    E2.3
+       U    E         2.3
        S    M20.6
 
        U    M20.6
-       U    E2.4
+       U    E         2.4
        S    M20.7
 
        U    M20.7
-       U    E2.2
-       S    M21.0
+       U    E         2.2
+       S    M        21.0
 
-       U    M21.0
-       UN   M25.2
-       S    M25.2
+       U    M        21.0
+       UN   M        25.2
+       S    M        25.2
  
-       U    M21.0
-       U    T6
-       S    M21.1
+       U    M        21.0
+       U    T           6
+       S    M        21.1
 NETWORK
 TITLE= Zustände
 //{{a}}
@@ -347,7 +347,7 @@ TITLE= Zustände
        R    A10.2
        R    A10.3
        R    A10.4
-       R    M20.7
+       R    M        20.7
 ////B18               
        U    M21.1
        S    A10.2
@@ -355,6 +355,84 @@ TITLE= Zustände
        R    A10.4
        R    M25.2
        R    M21.0
-  
+////B19  
+       U    M25.3
+       R    A10.2
+       R    A10.3
+       R    A10.4
+       R    M25.2
+       R    M21.1
+////B20  
+       U    M28.3
+       R    A10.2
+       S    A10.3
+       R    A10.4
+       R    M25.2
+       R    M25.3
+////B21  
+       U    M25.4
+       S    A10.2
+       S    A10.3
+       R    A10.4
+       R    M25.2
+       R    M28.3
+////B22  
+       U    M25.5
+       S    A10.2
+       S    A10.3
+       R    A10.4
+       R    M25.2
+       R    M25.4
+////B23  
+       U    M25.6
+       S    A10.2
+       S    A10.3
+       S    A10.4
+       R    M25.2
+       R    M25.5
+////B24  
+       U    M25.7
+       R    A10.2
+       S    A10.3
+       S    A10.4
+       R    M25.2
+       R    M25.6
+////B25  
+       U    M28.0
+       R    A10.2
+       R    A10.3
+       S    A10.4
+       R    M25.2
+       R    M25.7
+////B26  
+       U    M28.1
+       S    A10.2
+       R    A10.3
+       S    A10.4
+       R    M25.2
+       R    M28.0
+////B27  
+       U    M28.2
+       S    A10.2
+       R    A10.3
+       R    A10.4
+       R    M25.2
+       R    M28.1
+////B28
+ 
+       U    M28.4
+       S    A10.2
+       R    A10.3
+       R    A10.4
+       R    M25.2
+       R    M28.2
+////B29 
+       U    M28.5
+       R    A10.2
+       R    A10.3
+       R    A10.4
+       R    M25.2
+       R    M28.4
+
 //////////Deckel 
 END_ORGANIZATION_BLOCK
