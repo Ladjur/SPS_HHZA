@@ -1,0 +1,14 @@
+     0.0 STATUS:=W#16#0000            
+     2.0 FEHLER:=W#16#0000            
+     4.0 ST_Anlauf:=W#16#0000            
+     6.0 ST_Referenz:=W#16#0002            
+     8.0 ST_Bereit:=W#16#0003            
+     10.0 ST_Fehler:=W#16#0001            
+     12.0 ST_Busy:=W#16#0004            
+     14.0 ST_Test:=W#16#0006            
+     16.0 ST_Frei:=W#16#0007            
+     18.0 ST_Pause:=W#16#0005            
+     20.0 BEREIT:=W#16#0000            
+     22.0 ST_BereitAufnahme:=W#16#0001            
+     24.0 ST_BereitAbgabe:=W#16#0002            
+     26.0 ST_BereitNA:=W#16#0000            

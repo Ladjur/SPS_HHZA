@@ -1,0 +1,11 @@
+[PrjV2]
+Kennung=WS7V2
+iAktivesUnterprojekt=0
+bSimulatorAktiv=1
+ExternWeg=0
+LetzteAenderungTicks=701531
+LetzteAenderungDatum=10.05.2022
+LetzteAenderungUhrzeit=09:27:17
+WinPLC7-Version=V5.036
+[UPrj]
+P0=WUEMON\WUEMON.PRJ

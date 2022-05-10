@@ -1,0 +1,127 @@
+REFERENZ	A    0.2	BOOL	
+VM1Ein	A    8.4	BOOL	
+VM1Aus	A    8.5	BOOL	
+VM2Ein	A    8.6	BOOL	
+VM2Aus	A    8.7	BOOL	VM2 Ausfahren
+VM1Draussen	E    0.5	BOOL	
+VM1Drin	E    0.6	BOOL	
+VM2Draussen	E    1.0	BOOL	
+VM2Drin	E    1.1	BOOL	
+VM1Leer	E    0.7	BOOL	
+VM2Leer	E    1.2	BOOL	
+WartemitTeil	M    1.0	BOOL	
+VM1aktiv	M    1.1	BOOL	VM1 ist aktiv
+VM2aktiv	M    1.2	BOOL	VM2 ist aktiv
+VMAusfahrend	M    1.3	BOOL	
+VMEinfahrend	M    1.4	BOOL	
+VMWartend	M    1.5	BOOL	
+VMWechsel	M    1.6	BOOL	
+VMWartezeit	M    1.7	BOOL	
+WartezeitVM	T      0	TIMER	
+FB1Licht	E    0.0	BOOL	
+FB1BereitAufnahme	M    3.0	BOOL	
+FB1Fahrt	M    3.1	BOOL	
+FB1Stop	M    3.2	BOOL	
+FB1BereitAbgabe	M    3.3	BOOL	
+FB1UnterStift	M    3.4	BOOL	
+FB1Rechts	A    8.0	BOOL	
+FB1Links	A    8.1	BOOL	
+PEZylAus	A    8.2	BOOL	
+PEZylEin	A    8.3	BOOL	
+PEWS	E    0.1	BOOL	
+PEDeckel	E    0.2	BOOL	
+PEHell	E    0.3	BOOL	
+PEMetall	E    0.4	BOOL	
+PE_Timer	T      3	TIMER	
+PEBereit	M    2.0	BOOL	
+PEWSdrunter	M    2.1	BOOL	
+PEAbgabe	M    2.2	BOOL	
+PEFlanke1	M    2.3	BOOL	
+PEWSda	M    2.4	BOOL	
+PEDeckelda	M    2.6	BOOL	
+PEHellMetall	M    2.7	BOOL	
+PE_T_WSbisStift	T      4	TIMER	
+PE_T_Stiftausfahren	T      5	TIMER	
+ST2_HHZA_VZ_unten	E    2.2	BOOL	
+ST2_HHZA_VZ_oben	E    2.3	BOOL	
+ST2_HHZA_Z_Achse_ein	E    2.4	BOOL	
+ST2_HHZA_Z_Achse_aus	E    2.5	BOOL	
+ST2_HHZA_Wandler_CHA	E  124.0	BOOL	
+ST2_HHZA_Wandler_CHB	E  124.1	BOOL	
+ST2_HHZA_Referenzp	E  124.6	BOOL	
+ST2_HHZA_VZ_hoch	A   10.2	BOOL	
+ST2_HHZA_Saugen	A   10.3	BOOL	
+ST2_HHZA_ZAchse_ausf	A   10.4	BOOL	
+ST2_HHZA_Arm_links	A   10.5	BOOL	
+ST2_HHZA_Arm_rechts	A   10.6	BOOL	
+Achse_Zaehler	SFB   47	SFB47	
+M_Aufnahmepos_1	M    5.0	BOOL	
+M_Aufnahmepos_2	M    5.1	BOOL	
+M_Aufnahmepos_3	M    5.2	BOOL	
+T_Saugen	T      6	TIMER	
+Zähler	EW   128	WORD	
+M_Wendestation_V1	M    5.3	BOOL	
+M_Wendestation_V2	M    5.4	BOOL	
+M_Wendestation_V3	M    5.5	BOOL	
+M_Wendestation_V4	M    5.6	BOOL	
+M_Stiftstation_V1	M    5.7	BOOL	
+M_Stiftstation_V3	M   27.0	BOOL	
+HHZA1_Warte	M   27.1	BOOL	
+HHZA1_zuAP1	M   27.2	BOOL	Fahrt zu AufnahmePosition1
+M_StiftStation_V2	M   27.3	BOOL	
+PRUEFSTATION	FB     3	FB3	
+WSWaag	A   11.6	BOOL	
+WSSenk	A   11.7	BOOL	
+WSistWaag	E    3.6	BOOL	
+WSistSenk	E    3.7	BOOL	
+SSKZAus	A   11.4	BOOL	Stiftstation Klemmzylinder ausfahren
+SSSZAus	A   11.5	BOOL	Stiftstation Stiftzylinder ausfahren
+SSKZistAus	E    3.2	BOOL	Klemmzylinder istausgefahren
+SSKZistEin	E    3.3	BOOL	Klemmzylinder ist  eingefahren
+SSSZistAus	E    3.4	BOOL	Stiftzylinderist ausgefahren
+SSSZistEin	E    3.5	BOOL	Stiftzylinder ist eingfahren
+M_SSKZZu	M    7.0	BOOL	Klemmzylinder ist zufahrend
+M_SSSZZu	M    7.1	BOOL	StiftZylinder ist zufahrend
+M_SSSZAuf	M    7.2	BOOL	Stiftzylinder ist auffahrend
+M_SSKZAuf	M    7.3	BOOL	Klemmzylinder ist auffahrend
+M_SSBereit	M    7.4	BOOL	Stiftstation ist bereit
+M_SSWarten	M    7.5	BOOL	Stiftstation Druck aufrecht halten
+M_WendeStation_V5	M    7.6	BOOL	Stiftstation Druck aufrecht halten
+StiftTimer	T      7	TIMER	StiftTimer
+ZylinderRunter	A   10.7	BOOL	Zylinder runter
+SaugenEin	A   11.0	BOOL	Saugnapf
+Shuttle_links	A   11.1	BOOL	Shuttle links
+ZylinderOben	E    2.6	BOOL	Sensor Zylinder Oben
+ZylinderUnten	E    2.7	BOOL	Sensor Zylinder Unten
+ShuttleLinks	E    3.0	BOOL	Sensor Shuttle Rechts
+ShuttleRechts	E    3.1	BOOL	Sensor Shuttle Links
+P_Aufnahme	M    9.0	BOOL	Zustand Aufnahme
+P_Left	M    9.1	BOOL	Zustand Left
+P_Zylinder	M    9.2	BOOL	Zustand Zylinder
+P_Saugen	M    9.3	BOOL	Zustand Saugen
+P_Right	M    9.4	BOOL	Zustand Right
+P_Back	M    9.5	BOOL	Zustand Back
+P_Abgabe	M    9.6	BOOL	Zustand Abgabe
+P_Timer	T      8	TIMER	Timer Saugnapf
+PP_Draus	E    1.5	BOOL	Presse Ausschub Drausen
+PP_Drin	E    1.6	BOOL	Presse Ausschub Drin
+PP_AAus	A    9.2	BOOL	Presse Ausschub Ausfahren
+PP_AEin	A    9.3	BOOL	Presse Ausschub Einfahren
+PP_SSen	A    9.6	BOOL	Presse Stempel Heben
+PP_SHeb	A    9.7	BOOL	Presse Stempel Senken
+PP_T_Sen	T      2	TIMER	Timer Presse Senken
+PP_T_Heb	T      9	TIMER	Timer Presse Heben
+PP_Aufnahme	M    8.0	BOOL	Zustand Aufnahme
+PP_Einfahren	M    8.1	BOOL	Zustand Einfahren
+PP_Runter	M    8.2	BOOL	Zustand Stempel Runter
+PP_Rauf	M    8.3	BOOL	Zustand Stempel Rauf
+PP_Ausfahren	M    8.4	BOOL	Zustand Ausfahren
+PP_Abgabe	M    8.5	BOOL	Zustand Abgabe
+FBKR	A   10.0	BOOL	FBK Motor Rechts
+FBKL	A   10.1	BOOL	FBK Motor Links
+FBKLS	E    2.1	BOOL	FBK Lichtsensor
+MerkerAbgabeBereit	M   10.0	BOOL	
+P_Ref	M    9.7	BOOL	
+PP_Ref	M    8.6	BOOL	
+MerkerDB9Abgabe	M    4.0	BOOL	
+Start	M    4.1	BOOL	

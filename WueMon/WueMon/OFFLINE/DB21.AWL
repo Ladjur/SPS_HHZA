@@ -1,0 +1,34 @@
+//{{V2}}
+DATA_BLOCK DB21
+
+AUTHOR:mh
+FAMILY:nb
+NAME:nb
+VERSION:1.0
+
+
+FB21
+
+BEGIN
+
+       SHand:=FALSE
+       SAuto:=FALSE
+       S1:=FALSE
+       S2:=FALSE
+       S3:=FALSE
+       S4:=FALSE
+       S5:=FALSE
+       S6:=FALSE
+       LEDG:=FALSE
+       LEDR:=FALSE
+       LEDB:=FALSE
+       LEDW:=FALSE
+       Start:=FALSE
+       Stop:=FALSE
+       Quit:=FALSE
+       Notaus:=FALSE
+       Gblink:=FALSE
+       Rblink:=FALSE
+       Bblink:=FALSE
+       Wblink:=FALSE
+END_DATA_BLOCK
