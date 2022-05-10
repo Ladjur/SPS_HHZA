@@ -1,0 +1,28 @@
+//{{V2}}
+DATA_BLOCK DB8
+
+AUTHOR:mh
+FAMILY:nb
+NAME:nb
+VERSION:1.0
+
+
+FB8
+
+BEGIN
+
+       STATUS:=W#16#0000
+       FEHLER:=W#16#0000
+       ST_Anlauf:=W#16#0000
+       ST_Referenz:=W#16#0002
+       ST_Bereit:=W#16#0003
+       ST_Fehler:=W#16#0001
+       ST_Busy:=W#16#0004
+       ST_Test:=W#16#0006
+       ST_Frei:=W#16#0007
+       ST_Pause:=W#16#0005
+       BEREIT:=W#16#0000
+       ST_BereitAufnahme:=W#16#0001
+       ST_BereitAbgabe:=W#16#0002
+       ST_BereitNA:=W#16#0000
+END_DATA_BLOCK

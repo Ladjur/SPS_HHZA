@@ -1,0 +1,31 @@
+//{{V2}}
+DATA_BLOCK DB3
+
+AUTHOR:mh
+FAMILY:nb
+NAME:nb
+VERSION:1.0
+
+
+FB3
+
+BEGIN
+
+       STATUS:=W#16#0000
+       FEHLER:=W#16#0000
+       ST_Anlauf:=W#16#0000
+       ST_Referenz:=W#16#0000
+       ST_Bereit:=W#16#0000
+       ST_Fehler:=W#16#0000
+       ST_Busy:=W#16#0000
+       ST_Test:=W#16#0000
+       ST_Frei:=W#16#0000
+       ST_Pause:=W#16#0000
+       BEREIT:=W#16#0000
+       ST_BereitAufnahme:=W#16#0000
+       ST_BereitAbgabe:=W#16#0000
+       ST_BereitNA:=W#16#0000
+       PE_Deckel:=FALSE
+       PE_Hell:=FALSE
+       PE_Metall:=FALSE
+END_DATA_BLOCK

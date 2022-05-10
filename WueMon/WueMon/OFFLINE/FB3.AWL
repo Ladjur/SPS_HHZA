@@ -1,0 +1,172 @@
+//{{V2}}
+FUNCTION_BLOCK FB3
+TITLE=   <Beschreibung des FBs>
+
+
+AUTHOR:mh
+FAMILY:nb
+NAME:nb
+VERSION:1.0
+
+
+VAR_INPUT
+END_VAR
+
+VAR_OUTPUT
+END_VAR
+
+VAR_IN_OUT
+END_VAR
+
+VAR
+       STATUS:WORD:=W#16#0000  
+       FEHLER:WORD:=W#16#0000  
+       ST_Anlauf:WORD:=W#16#0000  
+       ST_Referenz:WORD:=W#16#0002  
+       ST_Bereit:WORD:=W#16#0003  
+       ST_Fehler:WORD:=W#16#0001  
+       ST_Busy:WORD:=W#16#0004  
+       ST_Test:WORD:=W#16#0006  
+       ST_Frei:WORD:=W#16#0007  
+       ST_Pause:WORD:=W#16#0005  
+       BEREIT:WORD:=W#16#0000  
+       ST_BereitAufnahme:WORD:=W#16#0001  
+       ST_BereitAbgabe:WORD:=W#16#0002  
+       ST_BereitNA:WORD:=W#16#0000  
+       PE_Deckel:BOOL:=FALSE  //True, falls gerade ein Deckel erkannt wurde
+       PE_Hell:BOOL:=FALSE  //True, fals gerade ein helles Teil erkannt wurde
+       PE_Metall:BOOL:=FALSE  //True, falls gerade ein MetallTeil erkannt wurde
+END_VAR
+
+VAR_TEMP
+END_VAR
+BEGIN
+
+NETWORK
+TITLE=   <Ueberschrift von Netzwerk>
+//{{a}}
+
+// Anlauf?    
+       L    DB20.ST_Anlauf
+       L    DB20.STATUS
+       ==D  
+       SPB  anla
+// Referenz?   
+       L    DB20.ST_Referenz  
+       L    DB20.STATUS
+       ==D
+       SPB  refe  
+//Freigegeben ?    
+       L    DB20.ST_Frei
+       L    DB20.STATUS
+       ==D
+       SPB  frei 
+//Busy ?   
+       L    DB20.ST_Busy 
+       L    DB20.STATUS 
+       ==D 
+       SPB  busy 
+ 
+ 
+       SPA  ende
+
+anla:  L    DB20.ST_Bereit               // Nach Anlauf sofort bereit allgemein   
+       T    DB3.STATUS
+       L    DB20.ST_BereitNA
+       T    DB3.BEREIT
+       SPA  ende
+refe:  NOP  0
+       L    DB20.ST_Referenz
+       T    DB3.STATUS
+
+       L    DB20.ST_Bereit
+       T    #STATUS
+       L    DB20.ST_BereitAufnahme
+       T    DB3.BEREIT
+       R    A8.2
+       S    A8.3
+
+       SPA  ende 
+frei:  NOP  0 
+       L    DB20.ST_Busy 
+       T    #STATUS                      // Wechsel auf BUSY   
+       L    DB20.ST_Bereit
+       T    DB3.STATUS
+       L    DB20.ST_BereitAufnahme
+       T    DB3.BEREIT
+       S    M2.0                         // Intern Bereit setzen 
+       FR   T3
+       FR   T4
+       FR   T5
+//** Alles resettieren  
+       SPA  ende
+//******** B U S Y *********************************************************** 
+busy:  NOP  0
+//*** PEBereit -> PEWSda 
+       U    E0.1                         // Werkstück erkannt, Stift einfahren 
+       U    M2.0
+       R    A8.2
+       S    A8.3
+       L    S5T#5S
+       SV   T3                           //** Starte Timer 5s, um Durchlaufzeit zu simulieren 
+       R    M2.0
+       L    S5T#1S500MS
+       SV   T4                           //*** Starte Timer 1500ms, um Stift auszufahren und zu messen  
+       S    M2.1
+       SPBN wei1
+       L    DB20.ST_BereitNA
+       T    DB3.BEREIT
+wei1:  NOP  0
+//*** PEWSDrunter -> PEDeckel 
+       U    M2.1
+       UN   T4                           // Timer für Stift erreicht ist abgelaufen 
+       R    M2.1
+       S    M2.6
+
+       L    S5T#200MS                    // Timer für Stiftausfahren starten 
+       SV   T5
+       S    A8.2                         // Stift ausfahren 
+       R    A8.3
+
+//*** PEDeckelda -> PEHellMetall 
+       U    M2.6
+       UN   T5                           // Timer Stift ausfahren abgelaufen 
+       SPBN wei2                         // WENN NICHT, DANN WEITER... 
+
+       U    E0.2
+       =    #PE_Deckel                   //Deckel , wenn true, sonst Boden 
+       SET                               // auch das muss ausgeführt werden 
+       R    M2.6
+       S    M2.7
+       R    A8.2                         // Zurückfahren Stift 
+       S    A8.3
+
+//***** HellMetall AUSFÜHRUNG ***** 
+wei2:  U    M2.7
+       U    T3
+       SPBN wei3
+//*** HIER KOMMEN Zähler und Timer, um Flanken der Helligkeit zu erkennen ******* 
+//*** Noch nicht fertig !!!!!!!!! 
+       U    E0.3
+       S    #PE_Hell
+       U    E0.4
+       S    #PE_Metall
+         
+
+//*** HellMetall -> PEBereit 
+wei3:  U    M2.7
+       UN   T3
+       R    M2.7
+       S    M2.0
+       SPBN naus
+//***************************************** 
+//*** Werte in Globale Datenablge schreiben 
+//*** Muss noch etwas erdenken dafür 
+//*** ++++++++++++++++++ 
+//***************************************** 
+
+naus:  NOP  1
+
+
+ende:  NOP  0
+END_FUNCTION_BLOCK

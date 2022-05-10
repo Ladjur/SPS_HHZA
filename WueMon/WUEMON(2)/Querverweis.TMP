@@ -1,0 +1,63 @@
+Drücken Sie die Return-Taste um den entsprechenden Editor zu öffnen!
+EINGAENGE
+
+   E0.1            # FB1      NETZWERK 001 Zeile 0035 # R # U    E         0.1                // VM1 eingefahren
+   E0.7            # FB1      NETZWERK 001 Zeile 0021 # R # U    E         0.7                // Magazin 1 Leer??
+   E1.1            # FB1      NETZWERK 001 Zeile 0036 # R # U    E         1.1                // VM2 eingefahren
+   E1.2            # FB1      NETZWERK 001 Zeile 0022 # R # O    E         1.2                // Magazin 2 leer??
+   E4.1            # FB21     NETZWERK 001 Zeile 0004 # R # U    E4.1
+   E4.2            # FB21     NETZWERK 001 Zeile 0007 # R # U    E4.2
+   E4.3            # FB21     NETZWERK 001 Zeile 0032 # R # U    E4.3
+   E4.4            # FB21     NETZWERK 001 Zeile 0035 # R # U    E4.4
+   E4.5            # FB21     NETZWERK 001 Zeile 0038 # R # U    E4.5
+   E4.6            # FB21     NETZWERK 001 Zeile 0029 # R # U    E4.6
+   E4.7            # FB21     NETZWERK 001 Zeile 0041 # R # U    E4.7
+   E5.0            # FB21     NETZWERK 001 Zeile 0012 # R # U    E5.0
+   E5.1            # FB21     NETZWERK 001 Zeile 0015 # R # U    E5.1
+   E5.2            # FB21     NETZWERK 001 Zeile 0018 # R # U    E5.2
+                   # FB21     NETZWERK 001 Zeile 0111 # R # U    E5.2
+                   # FB21     NETZWERK 001 Zeile 0114 # R # U    e         5.2
+   E5.3            # FB21     NETZWERK 001 Zeile 0021 # R # U    E5.3
+   E5.4            # FB21     NETZWERK 001 Zeile 0024 # R # U    E5.4
+                   # FB21     NETZWERK 001 Zeile 0117 # R # U    E5.4
+   E5.5            # FB21     NETZWERK 001 Zeile 0120 # R # U    E         5.5
+
+AUSGAENGE
+
+   A8.4            # FB1      NETZWERK 001 Zeile 0033 # W # S    A         8.4                // VM1 einfahren
+                   # FB1      NETZWERK 001 Zeile 0037 # W # R    A         8.4
+   A8.6            # FB1      NETZWERK 001 Zeile 0034 # W # S    A         8.6                // VM2 einfahren
+                   # FB1      NETZWERK 001 Zeile 0038 # W # R    A         8.6
+   A12.0           # FB21     NETZWERK 001 Zeile 0045 # W # =    A12.0
+                   # FB21     NETZWERK 001 Zeile 0082 # W # =    A12.0
+   A12.1           # FB21     NETZWERK 001 Zeile 0048 # W # =    A12.1
+                   # FB21     NETZWERK 001 Zeile 0086 # W # =    A12.1
+   A12.2           # FB21     NETZWERK 001 Zeile 0052 # W # =    A12.2
+                   # FB21     NETZWERK 001 Zeile 0090 # W # =    A12.2
+   A12.3           # FB21     NETZWERK 001 Zeile 0055 # W # =    A        12.3
+                   # FB21     NETZWERK 001 Zeile 0094 # W # =    A12.3
+   AW124           # OB1      NETZWERK 001 Zeile 0018 # W # T    AW      124                  // Anzeige
+
+MERKER
+
+   M20.0           # OB1      NETZWERK 001 Zeile 0041 # W # S    M        20.0                //Bereit-Merker
+                   # OB1      NETZWERK 001 Zeile 0046 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0048 # R # U    M        20.0                // Anlauf fertig -> Referenz
+                   # OB1      NETZWERK 001 Zeile 0058 # W # S    M        20.0                //Referenz-Merker
+                   # OB1      NETZWERK 001 Zeile 0063 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0065 # R # U    M        20.0                // Referenz  fertig -> BEREIT
+   M21.0           # FB21     NETZWERK 001 Zeile 0063 # R # UN   M21.0
+                   # FB21     NETZWERK 001 Zeile 0067 # W # S    M21.0
+                   # FB21     NETZWERK 001 Zeile 0073 # R # U    M21.0
+                   # FB21     NETZWERK 001 Zeile 0077 # W # R    M21.0
+                   # FB21     NETZWERK 001 Zeile 0080 # R # U    M21.0
+                   # FB21     NETZWERK 001 Zeile 0084 # R # U    M21.0
+                   # FB21     NETZWERK 001 Zeile 0088 # R # U    M21.0
+                   # FB21     NETZWERK 001 Zeile 0092 # R # U    M21.0
+
+ZEITEN
+
+   T5              # FB21     NETZWERK 001 Zeile 0065 # W # SE   T5
+                   # FB21     NETZWERK 001 Zeile 0066 # R # U    T5
+   T6              # FB21     NETZWERK 001 Zeile 0075 # W # SE   T6
+                   # FB21     NETZWERK 001 Zeile 0076 # R # U    T6

@@ -1,0 +1,161 @@
+//{{V2}}
+ORGANIZATION_BLOCK OB1
+TITLE= "Zyklisches Hauptprogramm"
+
+
+AUTHOR:nb
+FAMILY:nb
+NAME:nb
+VERSION:1.0
+
+
+VAR_TEMP
+       OB1_EV_CLASS:BYTE //Bits 0-3 = 1 (Coming event), Bits 4-7 = 1 (Event class 1)
+       OB1_SCAN_1:BYTE //1 (Cold restart scan 1 of OB 1), 3 (Scan 2-n of OB 1)
+       OB1_PRIORITY:BYTE //1 (Priority of 1 is lowest)
+       OB1_OB_NUMBR:BYTE //1 (Organization block 1, OB1)
+       OB1_RESERVED_1:BYTE //Reserved for system
+       OB1_RESERVED_2:BYTE //Reserved for system
+       OB1_PREV_CYCLE:INT //Cycle time of previous OB1 scan (milliseconds)
+       OB1_MIN_CYCLE:INT //Minimum cycle time of OB1 (milliseconds)
+       OB1_MAX_CYCLE:INT //Maximum cycle time of OB1 (milliseconds)
+       OB1_DATE_TIME:DATE_AND_TIME //Date and time OB1 started
+END_VAR
+BEGIN
+
+NETWORK
+TITLE=
+//{{a}}
+
+run1:  CALL FB        1,DB1
+       CALL FB        2,DB2
+       CALL FB        3,DB3
+       CALL FB        4,DB4
+       CALL FB        5,DB5
+       CALL FB        6,DB6
+       CALL FB        7,DB7
+       CALL FB        8,DB8
+       CALL FB        9,DB9
+       CALL FB       10,DB10
+       CALL FB       11,DB11
+       CALL FB       12,DB12
+       CALL FB       13,DB13
+       CALL FB       21,DB21
+
+       L    DB20.STATUS
+       T    AW      124
+
+       L    DB20.STATUS                  // Anlauf? 
+       L    DB20.ST_Anlauf
+       ==D
+       SPB  anl1
+
+       L    DB20.STATUS                  // Referenz?  
+       L    DB20.ST_Referenz
+       ==D
+       SPB  ref1
+
+       L    DB20.STATUS                  // Bereit?   
+       L    DB20.ST_Bereit
+       ==D
+       SPB  ber1
+
+       L    DB20.STATUS                  // Freigabe?    
+       L    DB20.ST_Frei
+       ==D
+       SPB  fre1
+
+       L    DB20.STATUS                  // Busy?    
+       L    DB20.ST_Busy
+       ==D
+       SPB  bus1
+
+   
+   
+        
+  
+       SPA  ende
+
+// +++ A N L A U F Beginn 
+anl1:  NOP  0
+       SET
+       S    M        20.0                //Bereit-Merker 
+// Alle FBs kontrollieren, ob Bereit   
+       L    DB20.ST_Bereit
+       L    DB10.STATUS
+       <>D
+       R    M        20.0
+// usw 
+       U    M        20.0                // Anlauf fertig -> Referenz 
+       SPBN ende
+       L    DB20.ST_Referenz
+       T    DB20.STATUS
+       R    DB21.LEDW                    // Weiss ist Anlauf 
+       S    DB21.LEDB                    //Blau ist Referenz 
+// --- A N L A U F  Ende 
+       SPA  ende
+// +++ R E F E R E N Z Beginn++++++++++++++++++  
+ref1:  NOP  0
+       S    M        20.0                //Referenz-Merker  
+// Alle FBs kontrollieren, ob Bereit    
+       L    DB20.ST_Bereit
+       L    DB10.STATUS
+       <>D
+       R    M        20.0
+// usw  
+       U    M        20.0                // Referenz  fertig -> BEREIT  
+       SPBN ende
+       L    DB20.ST_Bereit
+       T    DB20.STATUS
+       R    DB21.LEDB                    // Blau ist Referenz  
+       S    DB21.LEDG                    // Grün ist Bereit  
+// --- R E F E R E N Z  Ende  
+       SPA  ende
+// +++ B E R E I T Beginn +++++++++++++++++++++++ 
+ber1:  NOP  0
+       U    DB21.Start                   //Freigeben 
+       S    M        20.0                //Freigabe-Merker 
+       SPBN ende
+       L    DB20.ST_Frei
+       T    DB20.STATUS
+       R    DB21.LEDB                    // Blau ist Bereit   
+       S    DB21.Gblink                  //Grün Blinken ist Freigabe und Busy 
+// --- B E R E I T  Ende  
+       SPA  ende
+// +++ F R E I G A B E Beginn +++++++++++++++++++++++ 
+fre1:  NOP  0
+// Alle FBs kontrollieren, ob Freigabe fertig     
+       SET
+       S    M        20.0
+       L    DB20.ST_Frei
+       L    DB10.STATUS
+       ==D
+       R    M        20.0
+// usw   
+       U    M        20.0                // Freigabe  fertig -> Busy   
+       SPBN ende 
+       L    DB20.ST_Busy
+       T    DB20.STATUS 
+       R    DB21.Gblink                  // Grün blinken   
+       S    DB21.Gblink                  // Grün blinken   
+
+// --- F R E I G A B E  Ende   
+       SPA  ende
+// +++ B U S Y Beginn +++++++++++++++++++++++ 
+bus1:  NOP  0
+// Alle FBs kontrollieren, Fehler oder Fertig       
+       L    DB20.ST_Fehler
+       L    DB20.STATUS
+       <>D
+       SPB  ende
+// Fehler! 
+       S    DB21.LEDR
+       R    DB21.LEDG
+       T    DB20.STATUS
+
+
+// --- B U S Y  Ende    
+       SPA  ende
+         
+ende:  NOP  0
+END_ORGANIZATION_BLOCK

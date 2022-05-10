@@ -1,0 +1,559 @@
+Drücken Sie die Return-Taste um den entsprechenden Editor zu öffnen!
+EINGAENGE
+
+   E0.0            # FB2      NETZWERK 001 Zeile 0070 # R # U    E         0.0                // Lichtschranke erreicht
+                   # FB2      NETZWERK 001 Zeile 0077 # R # UN   E         0.0
+   E0.1            # FB3      NETZWERK 001 Zeile 0057 # R # U    E0.1                         // Werkstück erkannt, Stift einfahren
+   E0.2            # FB1      NETZWERK 001 Zeile 0039 # R # O    E         0.2                // Magazin 2 leer??
+                   # FB3      NETZWERK 001 Zeile 0087 # R # U    E0.2
+   E0.3            # FB3      NETZWERK 001 Zeile 0101 # R # U    E0.3
+   E0.4            # FB3      NETZWERK 001 Zeile 0103 # R # U    E0.4
+   E0.5            # FB1      NETZWERK 001 Zeile 0097 # R # U    E         0.5
+   E0.6            # FB1      NETZWERK 001 Zeile 0052 # R # U    E         0.6                // VM1 eingefahren
+                   # FB1      NETZWERK 001 Zeile 0057 # R # U    E         0.6
+                   # FB1      NETZWERK 001 Zeile 0105 # R # U    E         0.6
+   E0.7            # FB1      NETZWERK 001 Zeile 0038 # R # U    E         0.7                // Magazin 1 Leer??
+   E1.0            # FB1      NETZWERK 001 Zeile 0098 # R # O    E         1.0
+   E1.1            # FB1      NETZWERK 001 Zeile 0054 # R # U    E         1.1                // VM2 eingefahren
+                   # FB1      NETZWERK 001 Zeile 0058 # R # U    E         1.1
+                   # FB1      NETZWERK 001 Zeile 0106 # R # U    E         1.1
+   E1.5            # FB8      NETZWERK 001 Zeile 0060 # R # U    E         1.5
+                   # FB8      NETZWERK 001 Zeile 0142 # R # U    E         1.5
+   E1.6            # FB8      NETZWERK 001 Zeile 0110 # R # U    E         1.6
+   E2.1            # FB10     NETZWERK 001 Zeile 0022 # R # UN   E         2.1
+                   # FB10     NETZWERK 001 Zeile 0026 # R # U    E         2.1
+                   # FB10     NETZWERK 001 Zeile 0029 # R # UN   E         2.1
+                   # FB10     NETZWERK 001 Zeile 0035 # R # U    E         2.1                //Fehlermeldung
+                   # FB10     NETZWERK 001 Zeile 0068 # R # fine:  UN   E         2.1
+   E2.3            # FC21     NETZWERK 001 Zeile 0002 # R # U    E         2.3
+                   # FC21     NETZWERK 001 Zeile 0020 # R # U    E         2.3
+                   # FC21     NETZWERK 001 Zeile 0026 # R # U    E         2.3
+                   # FC21     NETZWERK 001 Zeile 0042 # R # U    E         2.3
+                   # FC21     NETZWERK 001 Zeile 0051 # R # U    E         2.3
+                   # FC21     NETZWERK 001 Zeile 0067 # R # U    E         2.3
+                   # FC21     NETZWERK 001 Zeile 0114 # R # U    E         2.3
+                   # FC21     NETZWERK 001 Zeile 0128 # R # U    E         2.3
+                   # FC21     NETZWERK 001 Zeile 0136 # R # U    E         2.3
+                   # FC21     NETZWERK 001 Zeile 0158 # R # U    E         2.3
+                   # FC21     NETZWERK 001 Zeile 0173 # R # U    E         2.3
+                   # FB5      NETZWERK 001 Zeile 0064 # R # U    E         2.3
+                   # FB5      NETZWERK 001 Zeile 0072 # R # U    E         2.3
+                   # FB5      NETZWERK 001 Zeile 0197 # R # U    E         2.3
+                   # FB5      NETZWERK 001 Zeile 0207 # R # U    E         2.3
+                   # FB5      NETZWERK 001 Zeile 0232 # R # U    E         2.3
+                   # FB5      NETZWERK 001 Zeile 0241 # R # U    E         2.3
+                   # FB5      NETZWERK 001 Zeile 0250 # R # U    E         2.3
+   E2.4            # FC21     NETZWERK 001 Zeile 0135 # R # U    E         2.4
+   E2.5            # FC21     NETZWERK 001 Zeile 0050 # R # U    E         2.5
+                   # FB5      NETZWERK 001 Zeile 0230 # R # U    E         2.5
+   E2.6            # FB9      NETZWERK 001 Zeile 0143 # R # U    E         2.6
+                   # FB9      NETZWERK 001 Zeile 0162 # R # U    E         2.6
+   E2.7            # FB9      NETZWERK 001 Zeile 0123 # R # U    E         2.7
+                   # FB9      NETZWERK 001 Zeile 0129 # R # U    E         2.7
+   E3.0            # FB9      NETZWERK 001 Zeile 0061 # R # U    E         3.0
+                   # FB9      NETZWERK 001 Zeile 0152 # R # U    E         3.0
+   E3.1            # FB9      NETZWERK 001 Zeile 0114 # R # U    E         3.1
+   E3.2            # FC21     NETZWERK 001 Zeile 0080 # R # U    E         3.2
+   E3.3            # FC21     NETZWERK 001 Zeile 0099 # R # U    E         3.3
+   E3.5            # FC21     NETZWERK 001 Zeile 0107 # R # U    E         3.5
+   E3.6            # FC21     NETZWERK 001 Zeile 0152 # R # UN   E         3.6
+                   # FC21     NETZWERK 001 Zeile 0157 # R # U    E         3.6
+   E3.7            # FC21     NETZWERK 001 Zeile 0021 # R # UN   E         3.7
+                   # FC21     NETZWERK 001 Zeile 0027 # R # U    E         3.7
+   E4.1            # FB21     NETZWERK 001 Zeile 0003 # R # U    E         4.1
+   E4.2            # FB21     NETZWERK 001 Zeile 0006 # R # U    E         4.2
+   E4.3            # FB21     NETZWERK 001 Zeile 0031 # R # U    E4.3
+   E4.4            # FB21     NETZWERK 001 Zeile 0034 # R # U    E4.4
+   E4.5            # FB21     NETZWERK 001 Zeile 0037 # R # U    E4.5
+   E4.6            # FB21     NETZWERK 001 Zeile 0028 # R # U    E4.6
+   E4.7            # FB21     NETZWERK 001 Zeile 0040 # R # U    E4.7
+   E5.0            # FB21     NETZWERK 001 Zeile 0011 # R # U    E5.0
+   E5.1            # FB21     NETZWERK 001 Zeile 0014 # R # U    E5.1
+   E5.2            # FB21     NETZWERK 001 Zeile 0017 # R # U    E5.2
+                   # FB21     NETZWERK 001 Zeile 0111 # R # U    E5.2
+                   # FB21     NETZWERK 001 Zeile 0114 # R # U    e         5.2
+   E5.3            # FB21     NETZWERK 001 Zeile 0020 # R # U    E5.3
+   E5.4            # FB21     NETZWERK 001 Zeile 0023 # R # U    E5.4
+                   # FB21     NETZWERK 001 Zeile 0117 # R # U    E5.4
+   E5.5            # FB21     NETZWERK 001 Zeile 0120 # R # U    E         5.5
+   E124.6          # FC15     NETZWERK 003 Zeile 0000 # R # U    E124.6
+                   # FB5      NETZWERK 001 Zeile 0071 # R # U    E       124.6
+                   # FB5      NETZWERK 001 Zeile 0169 # R # U    E       124.6
+   E124.7          # FC15     NETZWERK 004 Zeile 0000 # R # U    E       124.7
+
+AUSGAENGE
+
+   A8.0            # FB2      NETZWERK 001 Zeile 0080 # W # R    A         8.0
+                   # FB2      NETZWERK 001 Zeile 0092 # W # Fahr:  S    A         8.0                // Motor ein
+                   # FB2      NETZWERK 001 Zeile 0099 # W # Abga:  S    A         8.0                // Motor aus     UIUIUIUIUIUIUI hier kommtein R UIUIUIUIUIUIUIUI
+   A8.2            # FB3      NETZWERK 001 Zeile 0037 # W # R    A8.2
+                   # FB3      NETZWERK 001 Zeile 0059 # W # R    A8.2
+                   # FB3      NETZWERK 001 Zeile 0079 # W # S    A8.2                         // Stift ausfahren
+                   # FB3      NETZWERK 001 Zeile 0092 # W # R    A8.2                         // Zurückfahren Stift
+   A8.3            # FB3      NETZWERK 001 Zeile 0038 # W # S    A8.3
+                   # FB3      NETZWERK 001 Zeile 0060 # W # S    A8.3
+                   # FB3      NETZWERK 001 Zeile 0080 # W # R    A8.3
+                   # FB3      NETZWERK 001 Zeile 0093 # W # S    A8.3
+   A8.4            # FB1      NETZWERK 001 Zeile 0050 # W # S    A         8.4                // VM1 einfahren
+                   # FB1      NETZWERK 001 Zeile 0053 # W # R    A         8.4
+                   # FB1      NETZWERK 001 Zeile 0140 # W # S    A         8.4
+                   # FB1      NETZWERK 001 Zeile 0150 # W # R    A         8.4
+   A8.5            # FB1      NETZWERK 001 Zeile 0129 # W # S    A         8.5
+                   # FB1      NETZWERK 001 Zeile 0139 # W # R    A         8.5
+   A8.6            # FB1      NETZWERK 001 Zeile 0051 # W # S    A         8.6                // VM2 einfahren
+                   # FB1      NETZWERK 001 Zeile 0055 # W # R    A         8.6
+                   # FB1      NETZWERK 001 Zeile 0144 # W # S    A         8.6
+                   # FB1      NETZWERK 001 Zeile 0151 # W # R    A         8.6
+   A8.7            # FB1      NETZWERK 001 Zeile 0133 # W # S    A         8.7
+                   # FB1      NETZWERK 001 Zeile 0143 # W # R    A         8.7
+   A9.2            # FB8      NETZWERK 001 Zeile 0049 # W # R    A         9.2
+                   # FB8      NETZWERK 001 Zeile 0058 # W # S    A         9.2
+                   # FB8      NETZWERK 001 Zeile 0061 # W # R    A         9.2
+                   # FB8      NETZWERK 001 Zeile 0108 # W # R    A         9.2
+                   # FB8      NETZWERK 001 Zeile 0139 # W # S    A         9.2
+                   # FB8      NETZWERK 001 Zeile 0149 # W # R    A         9.2
+   A9.3            # FB8      NETZWERK 001 Zeile 0050 # W # R    A         9.3
+                   # FB8      NETZWERK 001 Zeile 0107 # W # S    A         9.3
+                   # FB8      NETZWERK 001 Zeile 0117 # W # R    A         9.3
+                   # FB8      NETZWERK 001 Zeile 0140 # W # R    A         9.3
+   A9.6            # FB8      NETZWERK 001 Zeile 0004 # R # U    A         9.6
+                   # FB8      NETZWERK 001 Zeile 0052 # W # R    A         9.6
+                   # FB8      NETZWERK 001 Zeile 0062 # W # R    A         9.6
+                   # FB8      NETZWERK 001 Zeile 0119 # W # S    A         9.6
+                   # FB8      NETZWERK 001 Zeile 0129 # W # R    A         9.6
+   A9.7            # FB8      NETZWERK 001 Zeile 0000 # R # U    A         9.7
+                   # FB8      NETZWERK 001 Zeile 0051 # W # S    A         9.7
+                   # FB8      NETZWERK 001 Zeile 0118 # W # R    A         9.7
+                   # FB8      NETZWERK 001 Zeile 0128 # W # S    A         9.7
+                   # FB8      NETZWERK 001 Zeile 0138 # W # R    A         9.7
+   A10.0           # FB10     NETZWERK 001 Zeile 0033 # W # ref:   R    A        10.0
+                   # FB10     NETZWERK 001 Zeile 0042 # W # go:    S    A        10.0
+                   # FB10     NETZWERK 001 Zeile 0050 # W # R    A        10.0
+                   # FB10     NETZWERK 001 Zeile 0061 # W # R    A        10.0
+   A10.1           # FB10     NETZWERK 001 Zeile 0034 # W # R    A        10.1
+                   # FB10     NETZWERK 001 Zeile 0043 # W # R    A        10.1
+                   # FB10     NETZWERK 001 Zeile 0049 # W # stop:  R    A        10.1
+                   # FB10     NETZWERK 001 Zeile 0062 # W # R    A        10.1
+   A10.2           # FC21     NETZWERK 001 Zeile 0006 # W # R    A        10.2
+                   # FC21     NETZWERK 001 Zeile 0011 # W # S    A        10.2
+                   # FC21     NETZWERK 001 Zeile 0031 # W # R    A        10.2
+                   # FC21     NETZWERK 001 Zeile 0037 # W # S    A        10.2
+                   # FC21     NETZWERK 001 Zeile 0055 # W # R    A        10.2
+                   # FC21     NETZWERK 001 Zeile 0062 # W # S    A        10.2
+                   # FC21     NETZWERK 001 Zeile 0119 # W # R    A        10.2
+                   # FC21     NETZWERK 001 Zeile 0124 # W # S    A        10.2
+                   # FC21     NETZWERK 001 Zeile 0140 # W # R    A        10.2
+                   # FC21     NETZWERK 001 Zeile 0145 # W # S    A        10.2
+                   # FC21     NETZWERK 001 Zeile 0163 # W # R    A        10.2
+                   # FC21     NETZWERK 001 Zeile 0169 # W # S    A        10.2
+                   # FB5      NETZWERK 001 Zeile 0062 # W # S    A        10.2
+                   # FB5      NETZWERK 001 Zeile 0186 # W # R    A        10.2
+                   # FB5      NETZWERK 001 Zeile 0194 # W # S    A        10.2
+                   # FB5      NETZWERK 001 Zeile 0233 # W # R    A        10.2
+                   # FB5      NETZWERK 001 Zeile 0239 # W # S    A        10.2
+   A10.3           # FC21     NETZWERK 001 Zeile 0010 # W # R    A        10.3
+                   # FC21     NETZWERK 001 Zeile 0032 # W # S    A        10.3
+                   # FC21     NETZWERK 001 Zeile 0060 # W # R    A        10.3
+                   # FC21     NETZWERK 001 Zeile 0120 # W # S    A        10.3
+                   # FC21     NETZWERK 001 Zeile 0144 # W # R    A        10.3
+                   # FC21     NETZWERK 001 Zeile 0162 # W # S    A        10.3
+                   # FB5      NETZWERK 001 Zeile 0187 # W # S    A        10.3
+                   # FB5      NETZWERK 001 Zeile 0238 # W # R    A        10.3
+   A10.4           # FC21     NETZWERK 001 Zeile 0045 # W # S    A        10.4
+                   # FC21     NETZWERK 001 Zeile 0130 # W # R    A        10.4
+                   # FB5      NETZWERK 001 Zeile 0228 # W # S    A        10.4
+                   # FB5      NETZWERK 001 Zeile 0243 # W # R    A        10.4
+   A10.5           # FC21     NETZWERK 001 Zeile 0176 # W # R    A        10.5
+                   # FB5      NETZWERK 001 Zeile 0065 # W # S    A        10.5
+                   # FB5      NETZWERK 001 Zeile 0073 # W # R    A        10.5
+                   # FB5      NETZWERK 001 Zeile 0104 # W # R    A        10.5
+                   # FB5      NETZWERK 001 Zeile 0116 # W # R    A        10.5
+                   # FB5      NETZWERK 001 Zeile 0137 # W # R    A        10.5
+                   # FB5      NETZWERK 001 Zeile 0150 # W # R    A        10.5
+                   # FB5      NETZWERK 001 Zeile 0164 # W # R    A        10.5
+                   # FB5      NETZWERK 001 Zeile 0171 # W # R    A        10.5
+                   # FB5      NETZWERK 001 Zeile 0245 # W # S    A        10.5
+   A10.6           # FC21     NETZWERK 001 Zeile 0177 # W # S    A        10.6
+                   # FB5      NETZWERK 001 Zeile 0066 # W # R    A        10.6
+                   # FB5      NETZWERK 001 Zeile 0074 # W # R    A        10.6
+                   # FB5      NETZWERK 001 Zeile 0103 # W # R    A        10.6
+                   # FB5      NETZWERK 001 Zeile 0115 # W # S    A        10.6
+                   # FB5      NETZWERK 001 Zeile 0136 # W # R    A        10.6
+                   # FB5      NETZWERK 001 Zeile 0149 # W # R    A        10.6
+                   # FB5      NETZWERK 001 Zeile 0163 # W # R    A        10.6
+                   # FB5      NETZWERK 001 Zeile 0170 # W # R    A        10.6
+                   # FB5      NETZWERK 001 Zeile 0201 # W # S    A        10.6
+                   # FB5      NETZWERK 001 Zeile 0210 # W # S    A        10.6
+                   # FB5      NETZWERK 001 Zeile 0246 # W # R    A        10.6
+   A10.7           # FB9      NETZWERK 001 Zeile 0053 # W # R    A        10.7
+                   # FB9      NETZWERK 001 Zeile 0121 # W # S    A        10.7
+                   # FB9      NETZWERK 001 Zeile 0141 # W # R    A        10.7
+                   # FB9      NETZWERK 001 Zeile 0160 # W # R    A        10.7
+   A11.0           # FB9      NETZWERK 001 Zeile 0000 # R # U    A        11.0
+                   # FB9      NETZWERK 001 Zeile 0054 # W # R    A        11.0
+                   # FB9      NETZWERK 001 Zeile 0124 # R # UN   A        11.0
+                   # FB9      NETZWERK 001 Zeile 0130 # R # U    A        11.0
+                   # FB9      NETZWERK 001 Zeile 0138 # W # S    A        11.0
+                   # FB9      NETZWERK 001 Zeile 0159 # W # R    A        11.0
+   A11.1           # FB9      NETZWERK 001 Zeile 0052 # W # S    A        11.1
+                   # FB9      NETZWERK 001 Zeile 0112 # W # R    A        11.1
+                   # FB9      NETZWERK 001 Zeile 0150 # W # S    A        11.1
+   A11.4           # FC21     NETZWERK 001 Zeile 0038 # W # R    A        11.4
+                   # FC21     NETZWERK 001 Zeile 0077 # W # S    A        11.4
+                   # FC21     NETZWERK 001 Zeile 0096 # W # R    A        11.4
+                   # FB5      NETZWERK 001 Zeile 0042 # W # R    A        11.4
+   A11.5           # FC21     NETZWERK 001 Zeile 0039 # W # R    A        11.5
+                   # FC21     NETZWERK 001 Zeile 0085 # W # S    A        11.5
+                   # FC21     NETZWERK 001 Zeile 0104 # W # R    A        11.5
+                   # FB5      NETZWERK 001 Zeile 0043 # W # R    A        11.5
+   A11.6           # FC21     NETZWERK 001 Zeile 0022 # W # R    A        11.6
+                   # FC21     NETZWERK 001 Zeile 0153 # W # S    A        11.6
+                   # FB5      NETZWERK 001 Zeile 0215 # W # S    A        11.6
+   A11.7           # FC21     NETZWERK 001 Zeile 0023 # W # S    A        11.7
+                   # FC21     NETZWERK 001 Zeile 0154 # W # R    A        11.7
+   A12.0           # FB21     NETZWERK 001 Zeile 0044 # W # =    A12.0
+                   # FB21     NETZWERK 001 Zeile 0082 # W # =    A12.0
+   A12.1           # FB21     NETZWERK 001 Zeile 0047 # W # =    A12.1
+                   # FB21     NETZWERK 001 Zeile 0086 # W # =    A12.1
+   A12.2           # FB21     NETZWERK 001 Zeile 0051 # W # =    A12.2
+                   # FB21     NETZWERK 001 Zeile 0090 # W # =    A12.2
+   A12.3           # FB21     NETZWERK 001 Zeile 0054 # W # =    A        12.3
+                   # FB21     NETZWERK 001 Zeile 0094 # W # =    A12.3
+   AW124           # OB1      NETZWERK 001 Zeile 0017 # W # T    AW      124
+
+MERKER
+
+   M1.0            # FB1      NETZWERK 001 Zeile 0109 # W # S    M         1.0
+                   # FB1      NETZWERK 001 Zeile 0115 # R # U    M         1.0
+                   # FB1      NETZWERK 001 Zeile 0116 # W # R    M         1.0
+                   # FB1      NETZWERK 001 Zeile 0147 # R # U    M         1.0
+   M1.1            # FB1      NETZWERK 001 Zeile 0069 # W # S    M         1.1                //Merker setzen, dass VM1 dran ist
+                   # FB1      NETZWERK 001 Zeile 0128 # R # U    M         1.1
+                   # FB1      NETZWERK 001 Zeile 0138 # R # U    M         1.1
+                   # FB1      NETZWERK 001 Zeile 0167 # R # UN   M         1.1
+                   # FB1      NETZWERK 001 Zeile 0168 # W # =    M         1.1
+   M1.2            # FB1      NETZWERK 001 Zeile 0132 # R # U    M         1.2
+                   # FB1      NETZWERK 001 Zeile 0142 # R # U    M         1.2
+                   # FB1      NETZWERK 001 Zeile 0170 # R # UN   M         1.2
+                   # FB1      NETZWERK 001 Zeile 0171 # W # =    M         1.2
+   M1.3            # FB1      NETZWERK 001 Zeile 0092 # W # S    M         1.3
+                   # FB1      NETZWERK 001 Zeile 0095 # R # f2nb:  U    M         1.3
+                   # FB1      NETZWERK 001 Zeile 0100 # W # R    M         1.3
+                   # FB1      NETZWERK 001 Zeile 0127 # R # U    M         1.3
+                   # FB1      NETZWERK 001 Zeile 0131 # R # U    M         1.3
+   M1.4            # FB1      NETZWERK 001 Zeile 0101 # W # S    M         1.4
+                   # FB1      NETZWERK 001 Zeile 0103 # R # U    M         1.4
+                   # FB1      NETZWERK 001 Zeile 0108 # W # R    M         1.4
+                   # FB1      NETZWERK 001 Zeile 0137 # R # U    M         1.4
+                   # FB1      NETZWERK 001 Zeile 0141 # R # U    M         1.4
+   M1.5            # FB1      NETZWERK 001 Zeile 0070 # W # S    M         1.5
+                   # FB1      NETZWERK 001 Zeile 0091 # R # U    M         1.5
+                   # FB1      NETZWERK 001 Zeile 0093 # W # R    M         1.5
+                   # FB1      NETZWERK 001 Zeile 0121 # R # akti:  U    M         1.5
+                   # FB1      NETZWERK 001 Zeile 0179 # W # S    M         1.5                //******* Zum Warten ***
+   M1.6            # FB1      NETZWERK 001 Zeile 0117 # W # S    M         1.6
+                   # FB1      NETZWERK 001 Zeile 0158 # R # ktei:  U    M         1.6
+                   # FB1      NETZWERK 001 Zeile 0178 # W # R    M         1.6
+   MB1             # FB1      NETZWERK 001 Zeile 0037 # W # T    MB        1                  // Merker resettieren
+   M2.0            # FB3      NETZWERK 001 Zeile 0048 # W # S    M2.0                         // Intern Bereit setzen
+                   # FB3      NETZWERK 001 Zeile 0058 # R # U    M2.0
+                   # FB3      NETZWERK 001 Zeile 0063 # W # R    M2.0
+                   # FB3      NETZWERK 001 Zeile 0111 # W # S    M2.0
+   M2.1            # FB3      NETZWERK 001 Zeile 0066 # W # S    M2.1
+                   # FB3      NETZWERK 001 Zeile 0072 # R # U    M2.1
+                   # FB3      NETZWERK 001 Zeile 0074 # W # R    M2.1
+   M2.6            # FB3      NETZWERK 001 Zeile 0075 # W # S    M2.6
+                   # FB3      NETZWERK 001 Zeile 0083 # R # U    M2.6
+                   # FB3      NETZWERK 001 Zeile 0090 # W # R    M2.6
+   M2.7            # FB3      NETZWERK 001 Zeile 0091 # W # S    M2.7
+                   # FB3      NETZWERK 001 Zeile 0096 # R # wei2:  U    M2.7
+                   # FB3      NETZWERK 001 Zeile 0108 # R # wei3:  U    M2.7
+                   # FB3      NETZWERK 001 Zeile 0110 # W # R    M2.7
+   M3.0            # FB2      NETZWERK 001 Zeile 0047 # W # S    M         3.0
+                   # FB2      NETZWERK 001 Zeile 0063 # R # U    M         3.0                //** FB lang bereit
+                   # FB2      NETZWERK 001 Zeile 0064 # W # R    M         3.0
+                   # FB2      NETZWERK 001 Zeile 0079 # W # S    M         3.0
+                   # FB2      NETZWERK 001 Zeile 0087 # R # U    M         3.0
+   M3.1            # FB2      NETZWERK 001 Zeile 0048 # W # R    M         3.1
+                   # FB2      NETZWERK 001 Zeile 0065 # W # S    M         3.1
+                   # FB2      NETZWERK 001 Zeile 0069 # R # U    M         3.1
+                   # FB2      NETZWERK 001 Zeile 0071 # W # R    M         3.1
+                   # FB2      NETZWERK 001 Zeile 0083 # R # U    M         3.1
+   M3.2            # FB2      NETZWERK 001 Zeile 0049 # W # R    M         3.2
+   M3.3            # FB2      NETZWERK 001 Zeile 0050 # W # R    M         3.3
+                   # FB2      NETZWERK 001 Zeile 0072 # W # S    M         3.3
+                   # FB2      NETZWERK 001 Zeile 0076 # R # U    M         3.3
+                   # FB2      NETZWERK 001 Zeile 0078 # W # R    M         3.3
+                   # FB2      NETZWERK 001 Zeile 0085 # R # U    M         3.3
+                   # FB5      NETZWERK 001 Zeile 0106 # R # U    M         3.3
+   M5.0            # FB5      NETZWERK 001 Zeile 0032 # W # R    M         5.0
+                   # FB5      NETZWERK 001 Zeile 0127 # R # U    M         5.0
+                   # FB5      NETZWERK 001 Zeile 0172 # W # R    M         5.0
+                   # FB5      NETZWERK 001 Zeile 0203 # W # S    M         5.0
+                   # FB5      NETZWERK 001 Zeile 0213 # W # S    M         5.0
+   M5.1            # FC21     NETZWERK 001 Zeile 0178 # W # S    M         5.1
+                   # FB5      NETZWERK 001 Zeile 0030 # W # R    M         5.1
+                   # FB5      NETZWERK 001 Zeile 0142 # R # U    M         5.1
+                   # FB5      NETZWERK 001 Zeile 0173 # W # R    M         5.1
+                   # FB5      NETZWERK 001 Zeile 0204 # W # S    M         5.1
+   M5.2            # FB5      NETZWERK 001 Zeile 0031 # W # R    M         5.2
+                   # FB5      NETZWERK 001 Zeile 0156 # R # U    M         5.2
+                   # FB5      NETZWERK 001 Zeile 0174 # W # R    M         5.2
+                   # FB5      NETZWERK 001 Zeile 0247 # W # S    M         5.2
+                   # FB5      NETZWERK 001 Zeile 0249 # R # U    M         5.2
+   M5.3            # FC21     NETZWERK 001 Zeile 0003 # R # U    M         5.3
+                   # FC21     NETZWERK 001 Zeile 0008 # R # U    M         5.3
+                   # FC21     NETZWERK 001 Zeile 0013 # W # R    M         5.3
+                   # FB5      NETZWERK 001 Zeile 0029 # W # R    M         5.3
+                   # FB5      NETZWERK 001 Zeile 0212 # W # S    M         5.3                // Bodenmusszur Wendestation
+   M5.4            # FC21     NETZWERK 001 Zeile 0014 # W # S    M         5.4
+                   # FC21     NETZWERK 001 Zeile 0019 # R # U    M         5.4
+                   # FC21     NETZWERK 001 Zeile 0025 # R # U    M         5.4
+                   # FC21     NETZWERK 001 Zeile 0035 # R # U    M         5.4
+                   # FC21     NETZWERK 001 Zeile 0041 # R # U    M         5.4
+                   # FC21     NETZWERK 001 Zeile 0046 # W # R    M         5.4
+                   # FB5      NETZWERK 001 Zeile 0034 # W # R    M         5.4
+   M5.5            # FC21     NETZWERK 001 Zeile 0132 # W # S    M         5.5
+                   # FC21     NETZWERK 001 Zeile 0134 # R # U    M         5.5
+                   # FC21     NETZWERK 001 Zeile 0142 # R # U    M         5.5
+                   # FC21     NETZWERK 001 Zeile 0147 # W # R    M         5.5
+                   # FB5      NETZWERK 001 Zeile 0035 # W # R    M         5.5
+   M5.6            # FC21     NETZWERK 001 Zeile 0148 # W # S    M         5.6
+                   # FC21     NETZWERK 001 Zeile 0151 # R # U    M         5.6
+                   # FC21     NETZWERK 001 Zeile 0156 # R # U    M         5.6
+                   # FC21     NETZWERK 001 Zeile 0165 # R # U    M         5.6
+                   # FC21     NETZWERK 001 Zeile 0167 # W # R    M         5.6
+                   # FB5      NETZWERK 001 Zeile 0036 # W # R    M         5.6
+   M5.7            # FC21     NETZWERK 001 Zeile 0047 # W # S    M         5.7
+                   # FC21     NETZWERK 001 Zeile 0049 # R # U    M         5.7
+                   # FC21     NETZWERK 001 Zeile 0058 # R # U    M         5.7
+                   # FC21     NETZWERK 001 Zeile 0063 # W # R    M         5.7
+                   # FB5      NETZWERK 001 Zeile 0037 # W # R    M         5.7
+   M7.0            # FC21     NETZWERK 001 Zeile 0070 # W # S    M         7.0
+                   # FC21     NETZWERK 001 Zeile 0076 # R # U    M         7.0
+                   # FC21     NETZWERK 001 Zeile 0079 # R # U    M         7.0                // Klemme ist zu -> Stifte schliessen
+                   # FC21     NETZWERK 001 Zeile 0081 # W # R    M         7.0
+                   # FB5      NETZWERK 001 Zeile 0044 # W # R    M         7.0
+   M7.1            # FC21     NETZWERK 001 Zeile 0082 # W # S    M         7.1
+                   # FC21     NETZWERK 001 Zeile 0084 # R # U    M         7.1
+                   # FC21     NETZWERK 001 Zeile 0090 # R # U    M         7.1
+                   # FC21     NETZWERK 001 Zeile 0092 # W # R    M         7.1
+                   # FB5      NETZWERK 001 Zeile 0045 # W # R    M         7.1
+   M7.2            # FC21     NETZWERK 001 Zeile 0101 # W # S    M         7.2
+                   # FC21     NETZWERK 001 Zeile 0103 # R # U    M         7.2
+                   # FC21     NETZWERK 001 Zeile 0106 # R # U    M         7.2                // Stifte offen -> bereit
+                   # FC21     NETZWERK 001 Zeile 0108 # W # R    M         7.2
+                   # FB5      NETZWERK 001 Zeile 0046 # W # R    M         7.2
+   M7.3            # FC21     NETZWERK 001 Zeile 0093 # W # S    M         7.3
+                   # FC21     NETZWERK 001 Zeile 0095 # R # U    M         7.3
+                   # FC21     NETZWERK 001 Zeile 0098 # R # U    M         7.3                //Klemme offen -> Stifte auf
+                   # FC21     NETZWERK 001 Zeile 0100 # W # R    M         7.3
+                   # FB5      NETZWERK 001 Zeile 0047 # W # R    M         7.3
+   M7.4            # FC21     NETZWERK 001 Zeile 0056 # W # S    M         7.4
+                   # FC21     NETZWERK 001 Zeile 0068 # R # U    M         7.4
+                   # FC21     NETZWERK 001 Zeile 0069 # W # R    M         7.4
+                   # FC21     NETZWERK 001 Zeile 0109 # W # S    M         7.4
+                   # FC21     NETZWERK 001 Zeile 0115 # R # U    M         7.4
+                   # FB5      NETZWERK 001 Zeile 0048 # W # R    M         7.4
+   M7.6            # FC21     NETZWERK 001 Zeile 0168 # W # S    M         7.6
+                   # FC21     NETZWERK 001 Zeile 0171 # R # U    M         7.6
+                   # FC21     NETZWERK 001 Zeile 0175 # W # R    M         7.6
+                   # FB5      NETZWERK 001 Zeile 0049 # W # R    M         7.6
+   M8.0            # FB8      NETZWERK 001 Zeile 0067 # R # PPBu:  U    M         8.0
+                   # FB8      NETZWERK 001 Zeile 0102 # W # R    M         8.0
+                   # FB8      NETZWERK 001 Zeile 0158 # W # S    M         8.0
+   M8.1            # FB8      NETZWERK 001 Zeile 0070 # R # U    M         8.1
+                   # FB8      NETZWERK 001 Zeile 0101 # W # S    M         8.1
+                   # FB8      NETZWERK 001 Zeile 0111 # W # R    M         8.1
+   M8.2            # FB8      NETZWERK 001 Zeile 0073 # R # U    M         8.2
+                   # FB8      NETZWERK 001 Zeile 0112 # W # S    M         8.2
+                   # FB8      NETZWERK 001 Zeile 0122 # W # R    M         8.2
+   M8.3            # FB8      NETZWERK 001 Zeile 0076 # R # U    M         8.3
+                   # FB8      NETZWERK 001 Zeile 0123 # W # S    M         8.3
+                   # FB8      NETZWERK 001 Zeile 0132 # W # R    M         8.3
+   M8.4            # FB8      NETZWERK 001 Zeile 0079 # R # U    M         8.4
+                   # FB8      NETZWERK 001 Zeile 0133 # W # S    M         8.4
+                   # FB8      NETZWERK 001 Zeile 0143 # W # R    M         8.4
+   M8.5            # FB8      NETZWERK 001 Zeile 0031 # W # R    M         8.5
+                   # FB8      NETZWERK 001 Zeile 0082 # R # U    M         8.5
+                   # FB8      NETZWERK 001 Zeile 0144 # W # S    M         8.5
+                   # FB8      NETZWERK 001 Zeile 0159 # W # R    M         8.5
+   M8.6            # FB8      NETZWERK 001 Zeile 0030 # W # R    M         8.6
+                   # FB8      NETZWERK 001 Zeile 0038 # R # UN   M         8.6
+                   # FB8      NETZWERK 001 Zeile 0053 # W # S    M         8.6
+   M9.0            # FB9      NETZWERK 001 Zeile 0028 # W # R    M         9.0
+                   # FB9      NETZWERK 001 Zeile 0056 # W # S    M         9.0
+                   # FB9      NETZWERK 001 Zeile 0067 # R # U    M         9.0
+                   # FB9      NETZWERK 001 Zeile 0104 # W # R    M         9.0
+                   # FB9      NETZWERK 001 Zeile 0176 # W # S    M         9.0
+   M9.1            # FB9      NETZWERK 001 Zeile 0029 # W # R    M         9.1
+                   # FB9      NETZWERK 001 Zeile 0070 # R # U    M         9.1
+                   # FB9      NETZWERK 001 Zeile 0103 # W # S    M         9.1
+                   # FB9      NETZWERK 001 Zeile 0116 # W # R    M         9.1
+   M9.2            # FB9      NETZWERK 001 Zeile 0030 # W # R    M         9.2
+                   # FB9      NETZWERK 001 Zeile 0073 # R # U    M         9.2
+                   # FB9      NETZWERK 001 Zeile 0115 # W # S    M         9.2
+                   # FB9      NETZWERK 001 Zeile 0126 # W # R    M         9.2
+                   # FB9      NETZWERK 001 Zeile 0132 # W # R    M         9.2
+                   # FB9      NETZWERK 001 Zeile 0153 # W # S    M         9.2
+   M9.3            # FB9      NETZWERK 001 Zeile 0031 # W # R    M         9.3
+                   # FB9      NETZWERK 001 Zeile 0076 # R # U    M         9.3
+                   # FB9      NETZWERK 001 Zeile 0125 # W # S    M         9.3
+                   # FB9      NETZWERK 001 Zeile 0145 # W # R    M         9.3
+   M9.4            # FB9      NETZWERK 001 Zeile 0032 # W # R    M         9.4
+                   # FB9      NETZWERK 001 Zeile 0079 # R # U    M         9.4
+                   # FB9      NETZWERK 001 Zeile 0144 # W # S    M         9.4
+                   # FB9      NETZWERK 001 Zeile 0154 # W # R    M         9.4
+   M9.5            # FB9      NETZWERK 001 Zeile 0033 # W # R    M         9.5
+                   # FB9      NETZWERK 001 Zeile 0082 # R # U    M         9.5
+                   # FB9      NETZWERK 001 Zeile 0131 # W # S    M         9.5
+                   # FB9      NETZWERK 001 Zeile 0164 # W # R    M         9.5
+   M9.6            # FB9      NETZWERK 001 Zeile 0034 # W # R    M         9.6
+                   # FB9      NETZWERK 001 Zeile 0085 # R # U    M         9.6
+                   # FB9      NETZWERK 001 Zeile 0163 # W # S    M         9.6
+                   # FB9      NETZWERK 001 Zeile 0177 # W # R    M         9.6
+   M9.7            # FB9      NETZWERK 001 Zeile 0027 # W # R    M         9.7
+                   # FB9      NETZWERK 001 Zeile 0041 # R # UN   M         9.7
+                   # FB9      NETZWERK 001 Zeile 0055 # W # S    M         9.7
+   M10.0           # FB10     NETZWERK 001 Zeile 0044 # W # R    M        10.0
+                   # FB10     NETZWERK 001 Zeile 0051 # W # S    M        10.0
+                   # FB10     NETZWERK 001 Zeile 0060 # W # R    M        10.0
+                   # FB10     NETZWERK 001 Zeile 0069 # W # R    M        10.0
+   M15.0           # FC15     NETZWERK 003 Zeile 0001 # W # FP   M        15.0
+   M15.1           # FC15     NETZWERK 004 Zeile 0001 # W # FP   M        15.1
+   M20.0           # OB1      NETZWERK 001 Zeile 0053 # W # S    M        20.0                //Bereit-Merker
+                   # OB1      NETZWERK 001 Zeile 0058 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0062 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0066 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0070 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0074 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0078 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0082 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0086 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0090 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0094 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0096 # R # U    M        20.0                // Anlauf fertig -> Referenz
+                   # OB1      NETZWERK 001 Zeile 0106 # W # S    M        20.0                //Referenz-Merker
+                   # OB1      NETZWERK 001 Zeile 0111 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0115 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0119 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0123 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0127 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0131 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0135 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0139 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0143 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0147 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0149 # R # U    M        20.0                // Referenz  fertig -> BEREIT
+                   # OB1      NETZWERK 001 Zeile 0160 # W # S    M        20.0                //Freigabe-Merker
+                   # OB1      NETZWERK 001 Zeile 0172 # W # S    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0176 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0180 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0184 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0188 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0192 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0196 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0200 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0204 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0208 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0212 # W # R    M        20.0
+                   # OB1      NETZWERK 001 Zeile 0216 # R # U    M        20.0                // Freigabe  fertig -> Busy
+   M21.0           # FB21     NETZWERK 001 Zeile 0063 # R # UN   M21.0
+                   # FB21     NETZWERK 001 Zeile 0067 # W # S    M21.0
+                   # FB21     NETZWERK 001 Zeile 0073 # R # U    M21.0
+                   # FB21     NETZWERK 001 Zeile 0077 # W # R    M21.0
+                   # FB21     NETZWERK 001 Zeile 0080 # R # U    M21.0
+                   # FB21     NETZWERK 001 Zeile 0084 # R # U    M21.0
+                   # FB21     NETZWERK 001 Zeile 0088 # R # U    M21.0
+                   # FB21     NETZWERK 001 Zeile 0092 # R # U    M21.0
+   M27.0           # FC21     NETZWERK 001 Zeile 0111 # W # S    M        27.0
+                   # FC21     NETZWERK 001 Zeile 0113 # R # U    M        27.0
+                   # FC21     NETZWERK 001 Zeile 0122 # R # U    M        27.0
+                   # FC21     NETZWERK 001 Zeile 0126 # R # U    M        27.0
+                   # FC21     NETZWERK 001 Zeile 0131 # W # R    M        27.0
+                   # FB5      NETZWERK 001 Zeile 0038 # W # R    M        27.0
+   M27.1           # FB5      NETZWERK 001 Zeile 0039 # W # R    M        27.1
+                   # FB5      NETZWERK 001 Zeile 0090 # W # S    M        27.1
+                   # FB5      NETZWERK 001 Zeile 0102 # R # U    M        27.1
+                   # FB5      NETZWERK 001 Zeile 0107 # R # U    M        27.1
+                   # FB5      NETZWERK 001 Zeile 0109 # W # R    M        27.1
+                   # FB5      NETZWERK 001 Zeile 0111 # R # U    M        27.1
+                   # FB5      NETZWERK 001 Zeile 0178 # W # S    M        27.1
+   M27.2           # FB5      NETZWERK 001 Zeile 0040 # W # R    M        27.2
+                   # FB5      NETZWERK 001 Zeile 0108 # W # S    M        27.2
+                   # FB5      NETZWERK 001 Zeile 0114 # R # U    M        27.2
+                   # FB5      NETZWERK 001 Zeile 0118 # R # U    M        27.2
+                   # FB5      NETZWERK 001 Zeile 0121 # R # U    M        27.2
+                   # FB5      NETZWERK 001 Zeile 0135 # W # R    M        27.2
+   M27.3           # FC21     NETZWERK 001 Zeile 0064 # W # S    M        27.3
+                   # FC21     NETZWERK 001 Zeile 0066 # R # U    M        27.3
+                   # FC21     NETZWERK 001 Zeile 0110 # W # R    M        27.3
+                   # FB5      NETZWERK 001 Zeile 0041 # W # R    M        27.3
+
+ZEITEN
+
+   T2              # FB8      NETZWERK 001 Zeile 0006 # W # SE   T           2
+                   # FB8      NETZWERK 001 Zeile 0121 # R # U    T           2
+   T3              # FB3      NETZWERK 001 Zeile 0049 # W # FR   T3
+                   # FB3      NETZWERK 001 Zeile 0062 # W # SV   T3                           //** Starte Timer 5s, um Durchlaufzeit zu simulieren
+                   # FB3      NETZWERK 001 Zeile 0097 # R # U    T3
+                   # FB3      NETZWERK 001 Zeile 0109 # R # UN   T3
+   T4              # FB3      NETZWERK 001 Zeile 0050 # W # FR   T4
+                   # FB3      NETZWERK 001 Zeile 0065 # W # SV   T4                           //*** Starte Timer 1500ms, um Stift auszufahren und zu messen
+                   # FB3      NETZWERK 001 Zeile 0073 # R # UN   T4                           // Timer für Stift erreicht ist abgelaufen
+   T5              # FB3      NETZWERK 001 Zeile 0051 # W # FR   T5
+                   # FB3      NETZWERK 001 Zeile 0078 # W # SV   T5
+                   # FB3      NETZWERK 001 Zeile 0084 # R # UN   T5                           // Timer Stift ausfahren abgelaufen
+                   # FB21     NETZWERK 001 Zeile 0065 # W # SE   T           5
+                   # FB21     NETZWERK 001 Zeile 0066 # R # U    T           5
+   T6              # FC21     NETZWERK 001 Zeile 0001 # R # UN   T           6
+                   # FC21     NETZWERK 001 Zeile 0005 # W # SS   T           6
+                   # FC21     NETZWERK 001 Zeile 0009 # R # U    T           6
+                   # FC21     NETZWERK 001 Zeile 0012 # W # R    T           6
+                   # FC21     NETZWERK 001 Zeile 0028 # R # UN   T           6
+                   # FC21     NETZWERK 001 Zeile 0030 # W # SS   T           6
+                   # FC21     NETZWERK 001 Zeile 0036 # R # U    T           6
+                   # FC21     NETZWERK 001 Zeile 0043 # R # U    T           6
+                   # FC21     NETZWERK 001 Zeile 0044 # W # R    T           6
+                   # FC21     NETZWERK 001 Zeile 0052 # R # UN   T           6
+                   # FC21     NETZWERK 001 Zeile 0054 # W # SS   T           6
+                   # FC21     NETZWERK 001 Zeile 0059 # R # U    T           6
+                   # FC21     NETZWERK 001 Zeile 0061 # W # R    T           6
+                   # FC21     NETZWERK 001 Zeile 0116 # R # UN   T           6
+                   # FC21     NETZWERK 001 Zeile 0118 # W # SS   T           6
+                   # FC21     NETZWERK 001 Zeile 0123 # R # U    T           6
+                   # FC21     NETZWERK 001 Zeile 0127 # R # U    T           6
+                   # FC21     NETZWERK 001 Zeile 0129 # W # R    T           6
+                   # FC21     NETZWERK 001 Zeile 0137 # R # UN   T           6
+                   # FC21     NETZWERK 001 Zeile 0139 # W # SS   T           6
+                   # FC21     NETZWERK 001 Zeile 0143 # R # U    T           6
+                   # FC21     NETZWERK 001 Zeile 0146 # W # R    T           6
+                   # FC21     NETZWERK 001 Zeile 0159 # R # UN   T           6
+                   # FC21     NETZWERK 001 Zeile 0161 # W # SS   T           6
+                   # FC21     NETZWERK 001 Zeile 0166 # R # U    T           6
+                   # FC21     NETZWERK 001 Zeile 0172 # R # U    T           6
+                   # FC21     NETZWERK 001 Zeile 0174 # W # R    T           6
+                   # FB5      NETZWERK 001 Zeile 0033 # W # R    T           6
+                   # FB5      NETZWERK 001 Zeile 0189 # R # UN   T           6
+                   # FB5      NETZWERK 001 Zeile 0191 # W # SS   T           6
+                   # FB5      NETZWERK 001 Zeile 0193 # R # U    T           6
+                   # FB5      NETZWERK 001 Zeile 0198 # R # U    T           6
+                   # FB5      NETZWERK 001 Zeile 0202 # W # R    T           6
+                   # FB5      NETZWERK 001 Zeile 0208 # R # U    T           6
+                   # FB5      NETZWERK 001 Zeile 0211 # W # R    T           6
+                   # FB5      NETZWERK 001 Zeile 0231 # R # UN   T           6
+                   # FB5      NETZWERK 001 Zeile 0235 # W # SS   T           6
+                   # FB5      NETZWERK 001 Zeile 0237 # R # U    T           6
+                   # FB5      NETZWERK 001 Zeile 0242 # R # U    T           6
+                   # FB5      NETZWERK 001 Zeile 0244 # W # R    T           6
+                   # FB21     NETZWERK 001 Zeile 0075 # W # SE   T           6
+                   # FB21     NETZWERK 001 Zeile 0076 # R # U    T           6
+   T7              # FC21     NETZWERK 001 Zeile 0071 # W # FR   T           7
+                   # FC21     NETZWERK 001 Zeile 0087 # W # SS   T           7
+                   # FC21     NETZWERK 001 Zeile 0089 # R # U    T           7                // Stifte zu -> Klemme öffnen
+                   # FC21     NETZWERK 001 Zeile 0091 # W # R    T           7
+   T8              # FB9      NETZWERK 001 Zeile 0002 # W # SE   T           8
+                   # FB9      NETZWERK 001 Zeile 0140 # R # U    T           8
+   T9              # FB8      NETZWERK 001 Zeile 0002 # W # SE   T           9
+                   # FB8      NETZWERK 001 Zeile 0057 # R # U    T           9
+                   # FB8      NETZWERK 001 Zeile 0131 # R # U    T           9
