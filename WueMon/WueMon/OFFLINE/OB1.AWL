@@ -24,7 +24,7 @@ END_VAR
 BEGIN
 
 NETWORK
-TITLE= 
+TITLE=
 //{{a}}
 
 run1:  CALL FB        1,DB1
