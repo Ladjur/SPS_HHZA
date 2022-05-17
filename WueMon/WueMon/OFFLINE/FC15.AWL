@@ -29,7 +29,7 @@ END_VAR
 BEGIN
 
 NETWORK
-TITLE= 
+TITLE=
 //{{a}}
 //Positionswert HHZA1 auslesen
 
@@ -44,7 +44,7 @@ TITLE=
          Fehler_Auftrag:=#Fehler_Auftrag
          Fehlernummer:=#Fehlernummer
 NETWORK
-TITLE=
+TITLE= 
 //{{a}}
 //Positionswert HHZA2 auslesen
 
@@ -59,7 +59,7 @@ TITLE=
          Fehler_Auftrag:=#Fehler_Auftrag
          Fehlernummer:=#Fehlernummer
 NETWORK
-TITLE=
+TITLE= 
 //{{a}}
 //Referenzposition für HHZA1 setzen...
 
@@ -80,7 +80,7 @@ TITLE=
 
 E1:    NOP  0
 NETWORK
-TITLE= 
+TITLE=
 //{{a}}
 //Referenzposition für HHZA2 setzen...
 
@@ -101,7 +101,7 @@ TITLE=
 
 E2:    NOP  0
 NETWORK
-TITLE= 
+TITLE=
 //{{a}}
 //Positionsprüfung...
 

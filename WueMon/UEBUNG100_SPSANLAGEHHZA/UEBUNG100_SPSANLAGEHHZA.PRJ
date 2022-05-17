@@ -5,9 +5,9 @@ ErstelltAm=132514826
 GeaendertAm=0
 tcPrjFarbe=16711680
 <<<<<<< HEAD
-LetzteAenderungTicks=85760683
+LetzteAenderungTicks=85695745
 LetzteAenderungDatum=17.05.2022
-LetzteAenderungUhrzeit=08:30:30
+LetzteAenderungUhrzeit=08:29:25
 =======
 LetzteAenderungTicks=1429434934
 LetzteAenderungDatum=12.04.2022
@@ -33,7 +33,7 @@ SymbolischeProgrammierung=1
 SymbolkommentarInAWLKopieren=0
 VorhandeneKommentareUeberschreiben=0
 SymbolikDateiOhnePfad=SYMBOLTABLE.SEQ
-StatVarDateiOhnePfad=TableOfVariables.var
+StatVarDateiOhnePfad=VariablenTabelle.var
 bSymbolikPanelZeigen=1
 bAutomatischeSymbolGenerierung=0
 bSymbolKommentarEinblenden=1
@@ -61,7 +61,7 @@ NetLinkPro_Ttr=18176
 NetLinkPro_Busprofil=0
 NetLinkPro_Baudrate=2
 <<<<<<< HEAD
-ProjektZeitMS=24294236
+ProjektZeitMS=24436731
 =======
 ProjektZeitMS=6219550
 >>>>>>> parent of 1e6e358... Test
@@ -115,4 +115,5 @@ Adresse=2
 Baugruppenart=4
 Adresse=12
 [OpenBlock]
-Block0=OB1
+Block6=OB100
+Block7=OB1

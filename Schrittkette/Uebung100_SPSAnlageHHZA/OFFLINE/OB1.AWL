@@ -520,7 +520,7 @@ TITLE= FalschesBauteil/Deckel
        U    E5.2
        UN   E5.0
        UN   E5.1
-       R    M29.1
+       S    M29.1
 
        U    M29.1
        U    E4.3
@@ -580,7 +580,7 @@ TITLE= FalschesBauteil/Deckel Zustände
        R    A10.2
        R    A10.3
        R    A10.4
-       R    M25.0
+       R    M28.7
 //////////Deckel
 ////D1 
        U    M29.1
