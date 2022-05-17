@@ -1,0 +1,63 @@
+// Anlauf?   
+       L    DB20.ST_Anlauf
+       L    DB20.STATUS
+       ==D 
+       SPB  anla
+// Referenz?  
+       L    DB20.ST_Referenz
+       L    DB20.STATUS
+       ==D 
+       SPB  refe 
+//Freigegeben ?   
+       L    DB20.ST_Frei 
+       L    DB20.STATUS
+       ==D
+       SPB  frei
+//Busy ?  
+       L    DB20.ST_Busy
+       L    DB20.STATUS
+       ==D
+       SPB  busy
+
+       SPA  ende
+
+anla:  L    DB20.ST_Bereit               // Nach Anlauf sofort bereit allgemein
+       T    DB2.STATUS
+// Merker resettieren  
+       R    "VM2aktiv"
+
+       L    DB20.ST_BereitNA
+       T    DB2.BEREIT
+       SPA  ende
+refe:  NOP  0
+       L    DB20.ST_Referenz
+       T    DB2.STATUS
+// referenzfahrt 
+       UN   "VM2Drin"
+       S    "VMEinfahrend"
+
+       L    DB20.ST_Bereit
+       T    #STATUS
+       L    DB20.ST_BereitAufnahme
+       T    DB2.BEREIT
+
+       SPA  ende
+frei:  NOP  0
+       L    DB20.ST_Busy
+       T    #STATUS                      // Wechsel auf BUSY  
+       L    DB20.ST_Bereit
+       T    DB2.STATUS
+       L    DB20.ST_BereitAufnahme
+       T    DB2.BEREIT
+//** Alles resettieren 
+       S    "FB1BereitAufnahme"
+       R    "FB1Fahrt"
+       R    "FB1Stop"
+       R    "FB1BereitAbgabe"
+
+       SPA  ende
+
+busy:  NOP  0
+//Warten zu ausfahren  
+       U    "VM2aktiv"
+       U    "VMWartend"
