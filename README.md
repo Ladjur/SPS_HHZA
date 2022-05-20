@@ -1,1 +1,1 @@
-SPS_HHZA
+## Programmierung des Handhabers der automatischen Würfelmaschiene an der TFO-Meran \
