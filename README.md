@@ -1,1 +1,1 @@
-## Programmierung des Handhabers der automatischen Würfelmaschiene an der TFO-Meran \
+## Programmierung des Handhabers einer automatischen Würfelmaschiene
