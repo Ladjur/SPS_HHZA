@@ -1,0 +1,174 @@
+//{{V2}}
+FUNCTION_BLOCK FB21
+TITLE=   <Beschreibung des FBs>
+
+
+AUTHOR:mh
+FAMILY:nb
+NAME:nb
+VERSION:1.0
+
+
+VAR_INPUT
+END_VAR
+
+VAR_OUTPUT
+END_VAR
+
+VAR_IN_OUT
+END_VAR
+
+VAR
+       SHand:BOOL:=FALSE  
+       SAuto:BOOL:=FALSE  
+       S1:BOOL:=FALSE  
+       S2:BOOL:=FALSE  
+       S3:BOOL:=FALSE  
+       S4:BOOL:=FALSE  
+       S5:BOOL:=FALSE  
+       S6:BOOL:=FALSE  
+       LEDG:BOOL:=FALSE  
+       LEDR:BOOL:=FALSE  
+       LEDB:BOOL:=FALSE  
+       LEDW:BOOL:=FALSE  
+       Start:BOOL:=FALSE  
+       Stop:BOOL:=FALSE  
+       Quit:BOOL:=FALSE  
+       Notaus:BOOL:=FALSE  
+       Gblink:BOOL:=FALSE  
+       Rblink:BOOL:=FALSE  
+       Bblink:BOOL:=FALSE  
+       Wblink:BOOL:=FALSE  
+END_VAR
+
+VAR_TEMP
+END_VAR
+BEGIN
+
+NETWORK
+TITLE=   <Ueberschrift von Netzwerk>
+//{{a}}
+
+//  Obere Leiste 
+//  3 STATUS 
+
+       U    E         4.1
+       =    #SHand
+
+       U    E         4.2
+       =    #SAuto
+
+//  SWITCH 
+
+       U    E5.0
+       =    #S1
+
+       U    E5.1
+       =    #S2
+
+       U    E5.2
+       =    #S3
+
+       U    E5.3
+       =    #S4
+
+       U    E5.4
+       =    #S5
+
+//  Untere Leiste   
+
+       U    E4.6
+       =    #S6
+
+       U    E4.3
+       =    #Start
+
+       U    E4.4
+       =    #Stop
+
+       U    E4.5
+       =    #Quit
+
+       U    E4.7
+       =    #Notaus
+
+       U    #LEDG
+       =    A12.0
+
+       U    #LEDR
+       =    A12.1
+
+
+       U    #LEDB
+       =    A12.2
+
+       U    #LEDW
+       =    A        12.3
+// *** ENDE *** 
+       BE
+//  Blinklichter 
+
+       O    #Gblink
+       O    #Rblink
+       O    #Bblink
+       O    #Wblink
+       UN   M21.0
+       L    S5T#100MS
+       SE   T           5
+       U    T           5
+       S    M21.0
+
+       O    #Gblink
+       O    #Rblink
+       O    #Bblink
+       O    #Wblink
+       U    M21.0
+       L    S5T#100MS
+       SE   T           6
+       U    T           6
+       R    M21.0
+         
+
+       U    M21.0
+       U    #Gblink
+       =    A12.0
+
+       U    M21.0
+       U    #Rblink
+       =    A12.1
+
+       U    M21.0
+       U    #Bblink
+       =    A12.2
+
+       U    M21.0
+       U    #Wblink
+       =    A12.3
+
+
+//Test1 (nur ein Testprogramm benutzen) 
+
+
+
+//       U    "Schalter1"
+//       =    #LEDG
+//       =    #LEDR
+//       =    "Blau"
+//       =    "Weiﬂ"
+
+
+//Test2 
+
+
+       U    E5.2
+       =    #Gblink
+
+       U    e         5.2                           
+       =    #Rblink
+
+       U    E5.4
+       =    #Bblink
+
+       U    E         5.5
+       =    #Wblink
+END_FUNCTION_BLOCK

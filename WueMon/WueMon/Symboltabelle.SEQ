@@ -1,0 +1,189 @@
+REFERENZ	A    0.2	BOOL	
+VM1Ein	A    8.4	BOOL	
+VM1Aus	A    8.5	BOOL	
+VM2Ein	A    8.6	BOOL	
+VM2Aus	A    8.7	BOOL	VM2 Ausfahren
+VM1Draussen	E    0.5	BOOL	
+VM1Drin	E    0.6	BOOL	
+VM2Draussen	E    1.0	BOOL	
+VM2Drin	E    1.1	BOOL	
+VM1Leer	E    0.7	BOOL	
+VM2Leer	E    1.2	BOOL	
+WartemitTeil	M    1.0	BOOL	
+VM1aktiv	M    1.1	BOOL	VM1 ist aktiv
+VM2aktiv	M    1.2	BOOL	VM2 ist aktiv
+VMAusfahrend	M    1.3	BOOL	
+VMEinfahrend	M    1.4	BOOL	
+VMWartend	M    1.5	BOOL	
+VMWechsel	M    1.6	BOOL	
+VMWartezeit	M    1.7	BOOL	
+WartezeitVM	T      0	TIMER	
+FB1Licht	E    0.0	BOOL	
+FB1BereitAufnahme	M    3.0	BOOL	
+FB1Fahrt	M    3.1	BOOL	
+FB1Stop	M    3.2	BOOL	
+FB1BereitAbgabe	M    3.3	BOOL	
+FB1UnterStift	M    3.4	BOOL	
+FB1Rechts	A    8.0	BOOL	
+FB1Links	A    8.1	BOOL	
+PEZylAus	A    8.2	BOOL	
+PEZylEin	A    8.3	BOOL	
+PEWS	E    0.1	BOOL	
+PEDeckel	E    0.2	BOOL	
+PEHell	E    0.3	BOOL	
+PEMetall	E    0.4	BOOL	
+PE_Timer	T      3	TIMER	
+PEBereit	M    2.0	BOOL	
+PEWSdrunter	M    2.1	BOOL	
+PEAbgabe	M    2.2	BOOL	
+PEFlanke1	M    2.3	BOOL	
+PEWSda	M    2.4	BOOL	
+PEDeckelda	M    2.6	BOOL	
+PEHellMetall	M    2.7	BOOL	
+PE_T_WSbisStift	T      4	TIMER	
+PE_T_Stiftausfahren	T      5	TIMER	
+M_Stiftstation_V3	M   27.0	BOOL	
+HHZA1_Warte	M   27.1	BOOL	
+HHZA1_zuAP1	M   27.2	BOOL	Fahrt zu AufnahmePosition1
+M_StiftStation_V2	M   27.3	BOOL	
+PRUEFSTATION	FB     3	FB3	
+WSWaag	A   11.6	BOOL	
+WSSenk	A   11.7	BOOL	
+WSistWaag	E    3.6	BOOL	
+WSistSenk	E    3.7	BOOL	
+SSKZAus	A   11.4	BOOL	Stiftstation Klemmzylinder ausfahren
+SSSZAus	A   11.5	BOOL	Stiftstation Stiftzylinder ausfahren
+SSKZistAus	E    3.2	BOOL	Klemmzylinder istausgefahren
+SSKZistEin	E    3.3	BOOL	Klemmzylinder ist  eingefahren
+SSSZistAus	E    3.4	BOOL	Stiftzylinderist ausgefahren
+SSSZistEin	E    3.5	BOOL	Stiftzylinder ist eingfahren
+M_SSKZZu	M    7.0	BOOL	Klemmzylinder ist zufahrend
+M_SSSZZu	M    7.1	BOOL	StiftZylinder ist zufahrend
+M_SSSZAuf	M    7.2	BOOL	Stiftzylinder ist auffahrend
+M_SSKZAuf	M    7.3	BOOL	Klemmzylinder ist auffahrend
+M_SSBereit	M    7.4	BOOL	Stiftstation ist bereit
+M_SSWarten	M    7.5	BOOL	Stiftstation Druck aufrecht halten
+M_WendeStation_V5	M    7.6	BOOL	Stiftstation Druck aufrecht halten
+StiftTimer	T      7	TIMER	StiftTimer
+ZylinderRunter	A   10.7	BOOL	Zylinder runter
+SaugenEin	A   11.0	BOOL	Saugnapf
+Shuttle_links	A   11.1	BOOL	Shuttle links
+ZylinderOben	E    2.6	BOOL	Sensor Zylinder Oben
+ZylinderUnten	E    2.7	BOOL	Sensor Zylinder Unten
+ShuttleLinks	E    3.0	BOOL	Sensor Shuttle Rechts
+ShuttleRechts	E    3.1	BOOL	Sensor Shuttle Links
+P_Aufnahme	M    9.0	BOOL	Zustand Aufnahme
+P_Left	M    9.1	BOOL	Zustand Left
+P_Zylinder	M    9.2	BOOL	Zustand Zylinder
+P_Saugen	M    9.3	BOOL	Zustand Saugen
+P_Right	M    9.4	BOOL	Zustand Right
+P_Back	M    9.5	BOOL	Zustand Back
+P_Abgabe	M    9.6	BOOL	Zustand Abgabe
+P_Timer	T      8	TIMER	Timer Saugnapf
+PP_Draus	E    1.5	BOOL	Presse Ausschub Drausen
+PP_Drin	E    1.6	BOOL	Presse Ausschub Drin
+PP_AAus	A    9.2	BOOL	Presse Ausschub Ausfahren
+PP_AEin	A    9.3	BOOL	Presse Ausschub Einfahren
+PP_SSen	A    9.6	BOOL	Presse Stempel Heben
+PP_SHeb	A    9.7	BOOL	Presse Stempel Senken
+PP_T_Sen	T      2	TIMER	Timer Presse Senken
+PP_T_Heb	T      9	TIMER	Timer Presse Heben
+PP_Aufnahme	M    8.0	BOOL	Zustand Aufnahme
+PP_Einfahren	M    8.1	BOOL	Zustand Einfahren
+PP_Runter	M    8.2	BOOL	Zustand Stempel Runter
+PP_Rauf	M    8.3	BOOL	Zustand Stempel Rauf
+PP_Ausfahren	M    8.4	BOOL	Zustand Ausfahren
+PP_Abgabe	M    8.5	BOOL	Zustand Abgabe
+FBKR	A   10.0	BOOL	FBK Motor Rechts
+FBKL	A   10.1	BOOL	FBK Motor Links
+FBKLS	E    2.1	BOOL	FBK Lichtsensor
+MerkerAbgabeBereit	M   10.0	BOOL	
+P_Ref	M    9.7	BOOL	
+PP_Ref	M    8.6	BOOL	
+MerkerDB9Abgabe	M    4.0	BOOL	
+Start2	M    4.1	BOOL	
+// Ausgänge
+Vertikalzylinder hoch	A   10.2	BOOL	Z ausfahren=1(einfahren=0)
+Saugen ein	A   10.3	BOOL	
+Z-Achse ausfahren	A   10.4	BOOL	Y ausfahren=1(einfahren=0)
+Arm Links	A   10.5	BOOL	X gegen Uhrzeigersinn
+Arm Rechts	A   10.6	BOOL	Hom
+// Eingänge
+Wandlereinheit CH A	E  124.0	BOOL	
+Wandlereinheit CH B	E  124.1	BOOL	
+Home Position	E  124.6	BOOL	
+Vertikalzylinder unten	E    2.2	BOOL	
+Vertikalzylinder oben	E    2.3	BOOL	
+Z-Achse eingefahren	E    2.4	BOOL	
+Z-Achse ausgefahren	E    2.5	BOOL	
+// Bedienpult -> A
+Bereit grün	A   12.0	BOOL	
+Störung rot	A   12.1	BOOL	
+Fehler blau	A   12.2	BOOL	
+Frei definierbar weiss	A   12.3	BOOL	
+// Bedienpult -> E
+Kein Not-Aus	E    4.0	BOOL	
+Hand	E    4.1	BOOL	
+Auto	E    4.2	BOOL	
+Start	E    4.3	BOOL	
+Stop	E    4.4	BOOL	
+Quittieren	E    4.5	BOOL	
+Frei definierbar	E    4.6	BOOL	
+Not-Aus	E    4.7	BOOL	
+Frei definierbar S1	E    5.0	BOOL	
+Frei definierbar S2	E    5.1	BOOL	
+Frei definierbar S3	E    5.2	BOOL	
+Frei definierbar S4	E    5.3	BOOL	
+//Timer 6,9-13,
+TimerSaugen	T      6	TIMER	
+Frei definierbar S5	E    5.4	BOOL	
+//Zustände  MB5,MB23,MB21,MB25,MB28,MB29,MB30
+B1	M    5.0	BOOL	Boden X Uhrzeigersinn (HAND/AUTO) Saugen 
+B2	M    5.1	BOOL	Boden Z-Achse einfahren Saugen 
+B3	M    5.2	BOOL	Boden Saugen aus 
+B4	M    5.3	BOOL	Boden Z-Achse ausfahren 
+B5	M    5.4	BOOL	Boden Z-Achse einfahren 
+B6	M    5.5	BOOL	Boden Saugen 
+B7	M    5.6	BOOL	Boden Z-Achse ausfahren Saugen 
+B8	M    5.7	BOOL	Boden Y-Achse ausfahren Saugen Z-Achse
+B9	M   23.0	BOOL	Boden Z-Achse einfahren Saugen Y-Achse
+B10	M   23.1	BOOL	Boden Saugen aus Y-Achse
+B11	M   23.2	BOOL	Boden Z-Achse ausfahren Y-Achse
+B12	M   23.3	BOOL	Boden Z-Achse einfahren Y-Achse 
+B13	M   23.4	BOOL	Boden Z-Achse einfahren Saugen ein Y-Achse 
+B14	M   23.5	BOOL	Boden Y-Achse ausfahren Saugen Z-Achse 
+B15	M   23.6	BOOL	Boden Saugen Z-Achse 
+B16	M   23.7	BOOL	Boden Saugen 
+B17	M   21.0	BOOL	Boden Saugen aus 
+B18	M   21.1	BOOL	Boden Z-Achse ausfahren
+H1	M   21.2	BOOL	Z-Achse ausfahren 
+H2	M   21.3	BOOL	X Uhrzeigersinn (HAND/AUTO)
+H3	M   21.4	BOOL	Z-Achse einfahren 
+H4	M   21.5	BOOL	Saugen
+H5	M   21.6	BOOL	Z-Achse ausfahren Saugen
+R1	M   21.7	BOOL	Z-Achse ausfahren
+R2	M   25.0	BOOL	X gegen Uhrzeigersinn
+R3	M   25.1	BOOL	Z-Achse einfahren
+M_Saugen	M   25.2	BOOL	
+B19	M   25.3	BOOL	Boden Z-Achse einfahren 
+B20	M   28.3	BOOL	
+B21	M   25.4	BOOL	
+B22	M   25.5	BOOL	
+B23	M   25.6	BOOL	
+B24	M   25.7	BOOL	
+B25	M   28.0	BOOL	
+B26	M   28.1	BOOL	
+B27	M   28.2	BOOL	
+B28	M   28.4	BOOL	
+B29	M   28.5	BOOL	
+F1	M   28.6	BOOL	
+F2	M   28.7	BOOL	
+F3	M   29.0	BOOL	
+D1	M   29.1	BOOL	
+D2	M   29.2	BOOL	
+D3	M   29.3	BOOL	
+D4	M   29.4	BOOL	
+D5	M   29.5	BOOL	
+D6	M   29.6	BOOL	
+D7	M   29.7	BOOL	
+D8	M   30.0	BOOL	

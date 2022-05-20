@@ -5,15 +5,15 @@ ErstelltAm=132514826
 GeaendertAm=0
 tcPrjFarbe=16711680
 <<<<<<< HEAD
-LetzteAenderungTicks=85760683
-LetzteAenderungDatum=17.05.2022
-LetzteAenderungUhrzeit=08:30:30
+LetzteAenderungTicks=1787700
+LetzteAenderungDatum=19.05.2022
+LetzteAenderungUhrzeit=14:39:12
 =======
 LetzteAenderungTicks=1429434934
 LetzteAenderungDatum=12.04.2022
 LetzteAenderungUhrzeit=08:40:43
 >>>>>>> parent of 1e6e358... Test
-WinPLC7-Version=V5.036
+WinPLC7-Version=V5.046
 PaeLeiste2Aktiv=1
 PaeLeiste3Aktiv=0
 PaeLeiste1Str=PAB12;PEB1;PEB2;PEB3;PEB124;PEB125;MB0;MB1;MB2;MB2;T1=S5T;T2=S5T;
@@ -61,13 +61,13 @@ NetLinkPro_Ttr=18176
 NetLinkPro_Busprofil=0
 NetLinkPro_Baudrate=2
 <<<<<<< HEAD
-ProjektZeitMS=24294236
+ProjektZeitMS=24711152
 =======
 ProjektZeitMS=6219550
 >>>>>>> parent of 1e6e358... Test
 [INIT]
 PrgName=WinSPS-S7
-Version=V5.036
+Version=V5.046
 [Software-SPS]
 Taktmerker=-1
 [MPI]

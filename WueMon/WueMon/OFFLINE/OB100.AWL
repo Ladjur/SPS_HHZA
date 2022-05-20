@@ -1,0 +1,54 @@
+//{{V2}}
+ORGANIZATION_BLOCK OB100
+TITLE= "Complete Restart"
+
+
+AUTHOR:mh
+FAMILY:nb
+NAME:nb
+VERSION:1.0
+
+
+VAR_TEMP
+       OB100_EV_CLASS:BYTE //16#13, Event class 1, Entering event state, Event logged in diagnostic buffer
+       OB100_STRTUP:BYTE //16#81/82/83/84 Method of startup
+       OB100_PRIORITY:BYTE //27 (Priority of 1 is lowest)
+       OB100_OB_NUMBR:BYTE //100 (Organization block 100, OB100)
+       OB100_RESERVED_1:BYTE //Reserved for system
+       OB100_RESERVED_2:BYTE //Reserved for system
+       OB100_STOP:WORD //Event that caused CPU to stop (16#4xxx)
+       OB100_STRT_INFO:DWORD //Information on how system started
+       OB100_DATE_TIME:DATE_AND_TIME //Date and time OB100 started
+END_VAR
+BEGIN
+
+NETWORK
+TITLE=
+//{{a}}
+
+       L    DB20.ST_Anlauf
+       T    DB20.STATUS
+       L    W#16#0000
+       T    DB20.FEHLER
+       L    DB20.ST_BereitNA
+       T    DB20.BEREIT
+       S    DB21.LEDW
+
+//***Für alle nochnicht geschriebenen FBS: 
+       L    DB20.ST_Bereit
+       T    DB4.STATUS
+       T    DB5.STATUS
+       T    DB6.STATUS
+       T    DB7.STATUS
+       T    DB8.STATUS
+       T    DB9.STATUS
+       T    DB10.STATUS
+       L    DB20.ST_Bereit
+       T    DB4.ST_Bereit
+       T    DB5.ST_Bereit
+       T    DB6.ST_Bereit
+       T    DB7.ST_Bereit
+       T    DB8.ST_Bereit
+       T    DB9.ST_Bereit
+       T    DB10.ST_Bereit
+END_ORGANIZATION_BLOCK

@@ -1,0 +1,136 @@
+//{{V2}}
+FUNCTION FC16
+TITLE= <Beschreibung der FC>
+
+
+AUTHOR:mh
+FAMILY:nb
+NAME:nb
+VERSION:1.0
+
+
+VAR_INPUT
+       Kanalnummer:INT 
+       Auftragswert:DINT 
+       Auftragsanstoss_Referenz:BOOL 
+       Auftragsanstoss_Grundpos:BOOL 
+       Auftragsanstoss_Vergl:BOOL 
+END_VAR
+
+VAR_OUTPUT
+       Zaehlwert:DINT 
+       Kontrolle_Vergleicher:BOOL 
+       Fehler_Auftrag:BOOL 
+       Fehlernummer:WORD 
+END_VAR
+
+VAR_IN_OUT
+END_VAR
+
+VAR_TEMP
+       Freigabe_Zaehler:BOOL 
+       Freigabe_Ausgang:BOOL 
+       Steuern_Ausgang:BOOL 
+       SOLL_Position:DINT 
+       EA_Adresse:WORD 
+       Auftragsfreigabe:BOOL 
+       Auftragsanstoss:BOOL 
+       Auftragsnummer:WORD 
+END_VAR
+BEGIN
+
+NETWORK
+TITLE=   <Ueberschrift von Netzwerk>
+//{{a}}
+
+       L    768
+       T    #EA_Adresse                  //EA-Adresse des Zählers 
+
+//   0
+//   #Kanalnummer                 //Schreibe Kanalnummer für Zähler 
+
+
+       SET
+       =    #Freigabe_Zaehler            //Softwarefreigabe für Zähler 
+
+       U    DB47.JOB_DONE                // Verhindert einen neuen Auftrag vor abschluss des alten... 
+       =    #Auftragsfreigabe
+
+       U(
+
+       O    #Auftragsanstoss_Referenz
+       O    #Auftragsanstoss_Grundpos
+       O    #Auftragsanstoss_Vergl
+       O    #Kontrolle_Vergleicher
+       )
+       U    #Auftragsfreigabe
+       =    #Auftragsanstoss             //Freigabe für Auftrag 
+
+       U    #Auftragsanstoss
+       SPBN X1
+
+       L    L#840                        //0                       //Referenzposition 
+       U    #Auftragsanstoss_Referenz
+       SPB  Wert
+       L    L#170                        //100                     //Grundposition 
+       U    #Auftragsanstoss_Grundpos
+       SPB  Wert
+       L    #SOLL_Position               //Sollposition für Vergleicher 
+       ITD
+       U    #Auftragsanstoss_Vergl
+       SPB  Wert
+       L    L#0                          //Dummywert für lesende Aufträge 
+       U    #Kontrolle_Vergleicher
+       SPB  Wert
+       SPA  X1
+
+Wert:  T    #Auftragswert                //Schreibe Auftragswert 
+       L    W#16#0001                    //Auftrag für Zählwert schreiben 
+       U    #Auftragsanstoss_Referenz
+       SPB  NR
+       L    W#16#0001                    //Auftrag für Zählwert schreiben 
+       U    #Auftragsanstoss_Grundpos
+       SPB  NR
+       L    W#16#0004                    //Auftrag für Vergleicher Schreiben 
+       U    #Auftragsanstoss_Vergl
+       SPB  NR
+       L    W#16#0084                    //Auftrag für Vergleicher Lesen 
+       U    #Kontrolle_Vergleicher
+       SPB  NR
+       SPA  X1
+NR:    T    #Auftragsnummer              //schreibe Auftragsnummer 
+
+X1:    NOP  0
+NETWORK
+TITLE=
+//{{a}}
+
+       CALL SFB47,DB47                   //Zähler  
+         LADDR:=#EA_Adresse
+         CHANNEL:=#Kanalnummer
+         SW_GATE:=#Freigabe_Zaehler
+         CTRL_DO:=#Freigabe_Ausgang
+         SET_DO:=#Steuern_Ausgang
+         JOB_REQ:=#Auftragsanstoss
+         JOB_ID:=#Auftragsnummer
+         JOB_VAL:=#Auftragswert
+         STS_GATE:=
+         STS_STRT:=
+         STS_LTCH:=
+         STS_DO:=
+         STS_C_DN:=
+         STS_C_UP:=
+         COUNTVAL:=#Zaehlwert
+         LATCHVAL:=
+         JOB_DONE:=#Auftragsfreigabe
+         JOB_ERR:=#Fehler_Auftrag
+         JOB_STAT:=#Fehlernummer
+       NOP  0
+NETWORK
+TITLE=   <Ueberschrift von Netzwerk>
+//{{a}}
+
+
+
+
+END_FUNCTION
